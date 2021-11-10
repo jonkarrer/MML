@@ -6,6 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +18,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-bold text-xl md:text-3xl;
+  }
+  h2 {
+    @apply font-medium text-lg md:text-2xl;
+  }
+  h3 {
+    @apply font-bold text-lg;
+  }
+  h4 {
+    @apply text-md;
+  }
+}
+
+@layer components {
+  .logo {
+    @apply text-xm font-black;
+  }
 }

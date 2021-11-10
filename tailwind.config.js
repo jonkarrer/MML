@@ -1,11 +1,28 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
+    fontSize: {
+      xty: "13px",
+      ty: "14px",
+      xs: "16px",
+      sm: "18px",
+      base: "20px",
+      xm: "24px",
+      md: "28px",
+      lg: "36px",
+      xl: "45px",
+      "2xl": "48px",
+      "3xl": "64px",
+    },
+    borderRadius: {
+      base: "10px",
+    },
     extend: {
       backgroundImage: {
-        splash: "linear-gradient(110deg, #00beb3, #5653ff)",
+        light_grad: "linear-gradient(110deg, #00beb3, #5653ff)",
+        dark_grad: "linear-gradient(160deg, #33123f, #12123e)",
       },
       width: {
         34: "135px",
