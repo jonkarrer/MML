@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "media", // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     fontSize: {
       xty: "13px",
@@ -28,7 +28,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        light_grad: "linear-gradient(110deg, #00beb3, #5653ff)",
+        light_grad: "linear-gradient(110deg, #31C1B9, #38AEFF)",
         dark_grad: "linear-gradient(110deg, #33123f, #12123e)",
       },
       width: {
@@ -81,6 +81,9 @@ module.exports = {
       },
       borderRadius: {
         base: "10px",
+      },
+      dropShadow: {
+        logo: "4px 5px 2px rgba(0, 0, 0, .3)",
       },
     },
   },
