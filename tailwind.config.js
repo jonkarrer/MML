@@ -12,12 +12,15 @@ module.exports = {
       xm: "24px",
       md: "28px",
       lg: "36px",
-      xl: "45px",
+      xl: "42px",
       "2xl": "48px",
       "3xl": "64px",
     },
-    borderRadius: {
-      base: "10px",
+    colors: {
+      purple: "#222353",
+      aqua: "#2AABC1",
+      white: "#ffffff",
+      black: "#000",
     },
     extend: {
       backgroundImage: {
@@ -65,6 +68,9 @@ module.exports = {
         220: "1000px",
         230: "1075px",
         240: "1150px",
+      },
+      borderRadius: {
+        base: "10px",
       },
     },
   },
