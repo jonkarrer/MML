@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Mobile: NextPage = () => {
   return (
-    <header className="absolute w-full px-7 py-6 lg:hidden">
+    <header className="absolute w-full px-7 py-6 md:px-28 lg:hidden">
       <div className="flex items-center justify-between">
         <span className="text-xm text-white font-bold">mml</span>
         <span className="h-7 w-11 rounded-base bg-white bg-opacity-20">

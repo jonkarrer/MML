@@ -22,16 +22,29 @@ a {
   box-sizing: border-box;
 }
 
+/*Md*/
+@media (min-width: 768px) {
+  section {
+    padding: 112px 28px;
+  }
+}
+/*Lg*/
+@media (min-width: 1024px) {
+}
+/*Xl*/
+@media (min-width: 1250px) {
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   h1 {
-    @apply font-bold text-xl md:text-3xl;
+    @apply font-bold text-xl md:text-3xl leading-tight;
   }
   h2 {
-    @apply font-medium text-lg md:text-2xl;
+    @apply font-medium opacity-80 text-lg md:text-2xl;
   }
   h3 {
     @apply font-bold text-lg;
@@ -43,6 +56,6 @@ a {
 
 @layer components {
   button {
-    @apply h-12 w-64 rounded-full text-sm font-bold;
+    @apply h-12 w-64 rounded-full text-sm font-bold md:w-44 md:text-ty;
   }
 }

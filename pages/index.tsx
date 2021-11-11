@@ -3,7 +3,7 @@ import { Splash, Features } from "@/components/Home";
 
 const Home: NextPage = () => {
   return (
-    <main className="pt-11 bg-light_grad dark:bg-dark_grad">
+    <main className="bg-light_grad dark:bg-dark_grad">
       <Splash />
       <Features />
     </main>
