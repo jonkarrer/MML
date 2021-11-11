@@ -12,7 +12,7 @@ module.exports = {
       xm: "24px",
       md: "28px",
       lg: "36px",
-      xl: "42px",
+      xl: "45px",
       "2xl": "48px",
       "3xl": "64px",
     },
@@ -21,6 +21,7 @@ module.exports = {
       aqua: "#2AABC1",
       white: "#ffffff",
       black: "#000",
+      powderblue: "#EFF8FE",
     },
     extend: {
       backgroundImage: {
@@ -28,6 +29,8 @@ module.exports = {
         dark_grad: "linear-gradient(160deg, #33123f, #12123e)",
       },
       width: {
+        25: "100px",
+        26: "105px",
         34: "135px",
         70: "260px",
         85: "340px",
@@ -50,6 +53,8 @@ module.exports = {
         240: "1150px",
       },
       height: {
+        25: "100px",
+        26: "105px",
         34: "135px",
         85: "376px",
         100: "400px",

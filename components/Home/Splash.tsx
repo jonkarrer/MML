@@ -2,14 +2,14 @@ import type { NextPage } from "next";
 
 const Splash: NextPage = () => {
   return (
-    <section className="bg-light_grad dark:bg-dark_grad pt-24 pb-16">
-      <article className="grid gap-12">
-        <h1 className="text-center text-white">Make the market you deserve</h1>
-        <p className="text-center text-white text-sm font-light">
+    <section>
+      <article className="grid text-center text-white">
+        <h1>Make the market you deserve</h1>
+        <p className="text-sm font-light mt-12">
           Market alerts, statistics and analytics, delivered through an
           innovative interface, made for retail investors.
         </p>
-        <button className="h-12 w-64 bg-white rounded-full m-auto text-sm font-bold text-aqua dark:text-purple">
+        <button className=" bg-white mx-auto mt-20 text-aqua dark:text-purple">
           Get Started
         </button>
       </article>

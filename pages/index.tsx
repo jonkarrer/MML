@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
-import { Splash } from "@/components/Home";
+import { Splash, Features } from "@/components/Home";
 
 const Home: NextPage = () => {
   return (
-    <main>
+    <main className="pt-11 bg-light_grad dark:bg-dark_grad">
       <Splash />
+      <Features />
     </main>
   );
 };

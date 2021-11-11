@@ -1,5 +1,4 @@
-import type { ReactNode } from "react";
-
-export interface IChildren {
-  children: ReactNode;
+export interface ITile {
+  text: string;
+  img: string;
 }

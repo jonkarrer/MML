@@ -1,3 +1,4 @@
 import Splash from "./Splash";
+import Features from "./Features";
 
-export { Splash };
+export { Splash, Features };
