@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontSize: {
       x: "11px",
+      xr: "12px",
       xty: "13px",
       ty: "14px",
       xs: "16px",
@@ -35,6 +36,8 @@ module.exports = {
       "6BC3FF": "#6BC3FF",
       "8678FF": "#8678FF",
       161616: "#161616",
+      "00DCCF": "#00DCCF",
+      "1E1F20": "#1E1F20",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -94,6 +97,14 @@ module.exports = {
         240: "1150px",
       },
       maxHeight: {
+        700: "700px",
+        800: "800px",
+        900: "900px",
+        1000: "1000px",
+        1100: "1100px",
+        1200: "1200px",
+      },
+      maxWidth: {
         700: "700px",
         800: "800px",
         900: "900px",
