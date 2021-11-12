@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const Splash: FC = () => (
-  <section className="h-135 md:h-160 grid place-items-center">
+  <section className="h-screen md:max-h-800 lg:max-h-1100 grid place-items-center">
     <article className="grid place-items-center text-center text-white">
       <h1 className="md:w-120">Make the market you deserve</h1>
       <p className="text-sm font-light mt-12 md:w-120 md:text-base md:leading-10">
