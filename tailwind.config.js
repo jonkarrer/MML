@@ -1,9 +1,10 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "media", // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     fontSize: {
+      x: "11px",
       xty: "13px",
       ty: "14px",
       xs: "16px",
@@ -29,6 +30,11 @@ module.exports = {
       FFEED0: "#FFEED0",
       "080B2D": "#080B2D",
       D1CCFF: "#D1CCFF",
+      232333: "#232333",
+      FFD184: "#FFD184",
+      "6BC3FF": "#6BC3FF",
+      "8678FF": "#8678FF",
+      161616: "#161616",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
