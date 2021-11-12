@@ -1,6 +1,6 @@
 const Dashboard = () => (
   <svg
-    className="fill-current text-blue dark:text-lt_purple"
+    className="fill-current text-3E8DFF dark:text-7A85FF"
     width="36"
     height="35"
     viewBox="0 0 36 35"
@@ -12,7 +12,7 @@ const Dashboard = () => (
 
 const Exclaimation = () => (
   <svg
-    className="fill-current text-blue dark:text-lt_purple"
+    className="fill-current text-3E8DFF dark:text-7A85FF"
     width="9"
     height="35"
     viewBox="0 0 9 35"
@@ -24,7 +24,7 @@ const Exclaimation = () => (
 
 const Flag = () => (
   <svg
-    className="fill-current text-blue dark:text-lt_purple"
+    className="fill-current text-3E8DFF dark:text-7A85FF"
     width="31"
     height="35"
     viewBox="0 0 31 35"
@@ -36,7 +36,7 @@ const Flag = () => (
 
 const Graph = () => (
   <svg
-    className="fill-current text-blue dark:text-lt_purple"
+    className="fill-current text-3E8DFF dark:text-7A85FF"
     width="48"
     height="35"
     viewBox="0 0 48 35"
@@ -48,7 +48,7 @@ const Graph = () => (
 
 const People = () => (
   <svg
-    className="fill-current text-blue dark:text-lt_purple"
+    className="fill-current text-3E8DFF dark:text-7A85FF"
     width="50"
     height="35"
     viewBox="0 0 50 35"
@@ -59,7 +59,7 @@ const People = () => (
 );
 
 const Tag = () => (
-  <h3 className="text-md text-blue dark:text-lt_purple">{`</>`}</h3>
+  <h3 className="text-md text-3E8DFF dark:text-7A85FF">{`</>`}</h3>
 );
 
 export { Dashboard, Exclaimation, Flag, Graph, People, Tag };

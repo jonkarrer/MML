@@ -14,7 +14,11 @@ const Desktop = () => {
       </nav>
 
       <menu className="grid grid-flow-col items-center gap-8 text-white">
-        <img className="w-8" src="/icons/github.svg" alt="github icon" />
+        <img
+          className="w-8 cursor-pointer"
+          src="/icons/github.svg"
+          alt="github icon"
+        />
         <NavLink text="Login" address="/" />
         <NavLink text="Sign Up" address="/" />
         <DashButton />

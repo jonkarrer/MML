@@ -1,7 +1,7 @@
 const Logo = () => (
   <div
     className="
-grid place-content-center 
+grid place-content-center cursor-pointer 
 bg-white dark:bg-darkgrey 
 w-11 h-11 rounded-full 
 filter bg-opacity-30

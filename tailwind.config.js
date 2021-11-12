@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     fontSize: {
       xty: "13px",
@@ -17,14 +17,22 @@ module.exports = {
       "3xl": "64px",
     },
     colors: {
-      purple: "#222353",
-      aqua: "#2AABC1",
+      222353: "#222353",
+      "2AABC1": "#2AABC1",
       white: "#ffffff",
       black: "#000",
-      powderblue: "#EFF8FE",
-      darkgrey: "#282929",
-      blue: "#3E8DFF",
-      lt_purple: "#7A85FF",
+      EFF8FE: "#EFF8FE",
+      BFE5FF: "#BFE5FF",
+      282929: "#282929",
+      "3E8DFF": "#3E8DFF",
+      "7A85FF": "#7A85FF",
+      FFEED0: "#FFEED0",
+      "080B2D": "#080B2D",
+      D1CCFF: "#D1CCFF",
+    },
+    boxShadow: {
+      lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+      card: "0px 5px 3px rgba(0, 0, 0, 0.3)",
     },
     extend: {
       backgroundImage: {

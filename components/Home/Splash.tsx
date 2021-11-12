@@ -9,7 +9,7 @@ const Splash: FC = () => (
         interface, made for retail investors.
       </p>
       <div className="grid grid-flow-col gap-16 items-center mt-20">
-        <button className=" bg-white  text-aqua dark:text-purple">
+        <button className=" bg-white  text-2AABC1 dark:text-222353">
           Get Started
         </button>
         <span className="hidden md:block text-ty">View the Docs</span>
