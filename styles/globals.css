@@ -46,6 +46,12 @@ section {
 /*Xl*/
 @media (min-width: 1280px) {
   :root {
+    --page-margin-x: 150px;
+  }
+}
+/*2Xl*/
+@media (min-width: 1440px) {
+  :root {
     --page-margin-x: 224px;
   }
 }
