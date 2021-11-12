@@ -1,17 +1,18 @@
 import { FC } from "react";
+import * as style from "./styles";
 
 const Annual: FC = () => {
   return (
-    <article className="py-9 text-center shadow-card rounded-xl dark:bg-161616 md:w-110 md:m-auto lg:w-full xl:w-80">
-      <div className="grid place-content-center gap-9 md:gap-2">
-        <h3 className="text-232333 dark:text-white dark:opacity-80">Annual</h3>
+    <article className={`${style.card} py-9`}>
+      <div className={style.wrapper}>
+        <h3 className={style.title}>Annual</h3>
 
-        <div className="md:grid md:gap-4 md:max-w-max md:m-auto">
-          <p className="text-xm text-232333 dark:text-white dark:opacity-80">
+        <div className={style.content}>
+          <p className={style.price}>
             <span className="font-bold">$399</span> per year
           </p>
 
-          <ul className="hidden md:grid place-content-start gap-2 text-left text-ty font-light opacity-60 h-72 dark:text-white ">
+          <ul className={style.benefits}>
             <li>
               <i className="font-bold">All free features, plus</i>
             </li>
