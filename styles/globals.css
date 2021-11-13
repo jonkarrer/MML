@@ -52,7 +52,7 @@ section {
 /*2Xl*/
 @media (min-width: 1440px) {
   :root {
-    --page-margin-x: 224px;
+    --page-margin-x: 200px;
   }
 }
 

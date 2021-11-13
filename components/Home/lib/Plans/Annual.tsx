@@ -3,7 +3,7 @@ import * as style from "./styles";
 
 const Annual: FC = () => {
   return (
-    <article className={`${style.card} py-9`}>
+    <article className={`${style.cardContainer} py-9`}>
       <div className={style.wrapper}>
         <h3 className={style.title}>Annual</h3>
 
