@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+  .plan {
+    @apply text-center shadow-card rounded-base dark:bg-161616 md:w-110 md:m-auto lg:w-full xl:w-80;
+  }
+  .plan .wrapper {
+    @apply grid place-items-center gap-9 md:gap-2;
+  }
+  .plan .title,
+  .plan .price {
+    @apply text-232333 dark:text-white dark:opacity-80;
+  }
+  .plan.content {
+    @apply md:grid md:gap-4 md:max-w-max md:m-auto;
+  }
+  .plan .price {
+    @apply text-xm;
+  }
+  .plan .benefits {
+    @apply hidden md:grid place-content-start gap-2 text-left text-ty font-light opacity-60 h-75 dark:text-white;
+  }
+}

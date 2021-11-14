@@ -1,12 +1,9 @@
 import { FC } from "react";
-import * as style from "./styles";
 
 const Premium: FC = () => {
   return (
-    <article
-      className={`${style.plan} py-8 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative`}
-    >
-      <div className={style.wrapper}>
+    <article className="plan py-8 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative">
+      <div className="wrapper">
         <span
           className="
         text-x font-bold w-32 
@@ -15,14 +12,14 @@ const Premium: FC = () => {
         >
           Try free for 7 days!
         </span>
-        <h3 className={style.title}>Premium</h3>
+        <h3 className="title">Premium</h3>
 
-        <div className={style.content}>
-          <p className={style.price}>
+        <div className="content">
+          <p className="price">
             <span className="font-bold">$39</span> per month
           </p>
 
-          <ul className={style.benefits}>
+          <ul className="benefits">
             <li>
               <i className="font-bold">All free features, plus</i>
             </li>

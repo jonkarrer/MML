@@ -1,18 +1,17 @@
 import { FC } from "react";
-import * as style from "./styles";
 
 const Annual: FC = () => {
   return (
-    <article className={`${style.plan} py-9`}>
-      <div className={style.wrapper}>
-        <h3 className={style.title}>Annual</h3>
+    <article className="plan py-9">
+      <div className="wrapper">
+        <h3 className="title">Annual</h3>
 
-        <div className={style.content}>
-          <p className={style.price}>
+        <div className="content">
+          <p className="price">
             <span className="font-bold">$399</span> per year
           </p>
 
-          <ul className={style.benefits}>
+          <ul className="benefits">
             <li>
               <i className="font-bold">All free features, plus</i>
             </li>

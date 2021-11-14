@@ -1,18 +1,17 @@
 import { FC } from "react";
-import * as style from "./styles";
 
 const Card: FC = () => {
   return (
-    <article className={`${style.plan} py-9`}>
-      <div className={style.wrapper}>
-        <h3 className={style.title}>Free</h3>
+    <article className="plan py-9">
+      <div className="wrapper">
+        <h3 className="title">Free</h3>
 
-        <div className={style.content}>
-          <p className={style.price}>
+        <div className="content">
+          <p className="price">
             <span className="font-bold">$0</span> per month
           </p>
 
-          <ul className={style.benefits}>
+          <ul className="benefits">
             <li>Delayed charts</li>
             <li>Delayed alerts</li>
             <li>Discord community</li>

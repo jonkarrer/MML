@@ -1,3 +1,5 @@
+@import url("./components/button.css");
+@import url("./components/Home/Plans.css");
 * {
   box-sizing: border-box;
 }
@@ -58,7 +60,7 @@ section {
 
 /* TAILWIND BOILERPLATE ******************/
 @tailwind base;
-@tailwind components;
+
 @tailwind utilities;
 
 @layer base {
@@ -76,11 +78,5 @@ section {
   }
   body {
     @apply m-auto;
-  }
-}
-
-@layer components {
-  button {
-    @apply h-12 w-64 rounded-full text-sm font-bold md:w-44 md:text-ty;
   }
 }
