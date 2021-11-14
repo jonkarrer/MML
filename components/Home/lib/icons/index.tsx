@@ -153,7 +153,7 @@ const Rocket = () => (
 
 const Lightning = () => (
   <svg
-    width="39"
+    width="75"
     height="69"
     viewBox="0 0 39 69"
     fill="none"
