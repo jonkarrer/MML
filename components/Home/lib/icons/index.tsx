@@ -98,7 +98,7 @@ export const Python = () => (
 
 export const Discord = () => (
   <svg
-    className="fill-current text-B9B9B9 lg:dark:text-white dark:opacity-50"
+    className="fill-current text-B9B9B9 lg:dark:text-white dark:opacity-60"
     width="61"
     height="39"
     viewBox="0 0 61 39"

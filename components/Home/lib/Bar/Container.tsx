@@ -3,7 +3,7 @@ import { Dash, Python, Discord } from "../icons/index";
 
 const Container = () => {
   return (
-    <div className="grid gap-8 place-items-center md:w-96 md:m-auto lg:flex lg:gap-0 lg:w-auto lg:flex-1 lg:justify-end">
+    <div className="grid gap-8 place-items-center m-auto w-full md:w-96 lg:grid-cols-3 lg:place-items-end lg:w-full">
       <div className="bg-00DCCF w-full h-full rounded-xl lg:bg-opacity-0 lg:w-auto">
         <Card>
           <Dash />

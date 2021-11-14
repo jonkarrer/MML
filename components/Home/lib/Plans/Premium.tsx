@@ -4,7 +4,7 @@ import * as style from "./styles";
 const Premium: FC = () => {
   return (
     <article
-      className={`${style.cardContainer} py-8 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative`}
+      className={`${style.plan} py-8 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative`}
     >
       <div className={style.wrapper}>
         <span
