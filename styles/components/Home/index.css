@@ -20,4 +20,17 @@
   .plan .benefits {
     @apply hidden md:grid place-content-start gap-2 text-left text-ty font-light opacity-60 h-75 dark:text-white;
   }
+
+  .benefit {
+    @apply grid place-items-center grid-cols-2 m-auto w-71 md:w-64 md:gap-9 text-opacity-60 text-black dark:text-white;
+  }
+  .benefit .headline-wrapper {
+    @apply flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9;
+  }
+  .benefit .title {
+    @apply pl-4 w-full md:pl-0;
+  }
+  .benefit .text {
+    @apply text-xs col-span-2;
+  }
 }

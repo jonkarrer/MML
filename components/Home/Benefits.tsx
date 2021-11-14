@@ -9,13 +9,11 @@ const Benefits = () => (
       </h2>
 
       <Benefit>
-        <div className="flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9">
+        <div className="headline-wrapper">
           <Diamonds />
-          <h4 className="text-black opacity-80 dark:text-white  px-2">
-            More Markets
-          </h4>
+          <h4 className="title">More Markets</h4>
         </div>
-        <p className="text-xs opacity-60 text-black dark:text-white col-span-2">
+        <p className="text">
           Analyze everything in one place. We support over 9,000 stocks,
           indices, and etfs, over 150 crypto pairs...{" "}
           <b>and we support options!</b> {""}
@@ -23,26 +21,22 @@ const Benefits = () => (
         </p>
       </Benefit>
       <Benefit>
-        <div className="flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9">
+        <div className="headline-wrapper">
           <Rocket />
-          <h4 className="text-black opacity-80 dark:text-white px-2">
-            Stellar support
-          </h4>
+          <h4 className="title">Stellar support</h4>
         </div>
-        <p className="text-xs opacity-60 text-black dark:text-white col-span-2">
+        <p className="text">
           Our goal is to provide <b>the best support</b> and the highest quality
           free educational tools. You can chat directly with our team, or ask
           the community a question.
         </p>
       </Benefit>
       <Benefit>
-        <div className="flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9">
+        <div className="headline-wrapper">
           <Lightning />
-          <h4 className="text-black opacity-80 dark:text-white px-2">
-            Reliable speed
-          </h4>
+          <h4 className="title">Reliable speed</h4>
         </div>
-        <p className="text-xs opacity-60 text-black dark:text-white col-span-2">
+        <p className="text">
           We know <b>reliability is everything</b>, so we created our dashboard
           and API with stability and performance in mind.
         </p>
@@ -53,8 +47,4 @@ const Benefits = () => (
 
 export default Benefits;
 
-const Benefit: FC = ({ children }) => (
-  <div className="grid place-items-center grid-cols-2 m-auto w-71  md:w-64 md:gap-9">
-    {children}
-  </div>
-);
+const Benefit: FC = ({ children }) => <div className="benefit">{children}</div>;
