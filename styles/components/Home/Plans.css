@@ -11,7 +11,7 @@
   .plan .price {
     @apply text-232333 dark:text-white dark:opacity-80;
   }
-  .plan.content {
+  .plan .content {
     @apply md:grid md:gap-4 md:max-w-max md:m-auto;
   }
   .plan .price {
