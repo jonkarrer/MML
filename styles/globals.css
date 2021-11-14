@@ -79,4 +79,7 @@ section {
   body {
     @apply m-auto;
   }
+  article {
+    @apply max-w-1000 m-auto;
+  }
 }

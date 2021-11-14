@@ -10,7 +10,7 @@ const Plans: FC = () => {
         <h2 className="text-center md:w-120 md:m-auto lg:w-auto dark:text-white">
           Try free or sign up for premium features.
         </h2>
-        <div className="grid gap-10 lg:grid-cols-3 lg:gap-6 xl:w-max xl:m-auto">
+        <div className="grid gap-10 lg:grid-cols-3 lg:gap-6">
           <Free />
           <Premium />
           <Annual />

@@ -76,7 +76,7 @@ const Dash = () => (
   </div>
 );
 
-export const Python = () => (
+const Python = () => (
   <svg
     className=""
     width="65"
@@ -96,7 +96,7 @@ export const Python = () => (
   </svg>
 );
 
-export const Discord = () => (
+const Discord = () => (
   <svg
     className="fill-current text-B9B9B9 lg:dark:text-white dark:opacity-60"
     width="61"
@@ -108,4 +108,76 @@ export const Discord = () => (
   </svg>
 );
 
-export { Dashboard, Exclaimation, Flag, Graph, People, Tag, Dash };
+const Diamonds = () => (
+  <svg
+    width="75"
+    height="75"
+    viewBox="0 0 75 75"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clipPath="url(#clip0_2_94)">
+      <path
+        d="M75 37.5L53.125 9.375L49.1562 14.4688L31.25 37.5L49.1562 60.5L53.125 65.625L75 37.5ZM41.4687 60.5313L23.5313 37.5L41.4375 14.4375L37.5 9.375L15.625 37.5L37.5 65.625L41.4687 60.5313ZM25.8437 60.5313L7.90625 37.5L25.8125 14.4375L21.875 9.375L0 37.5L21.875 65.625L25.8437 60.5313Z"
+        className="fill-current text-black dark:text-white"
+        fillOpacity="0.87"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_2_94">
+        <rect
+          width="75"
+          height="75"
+          className="fill-current text-black dark:text-white"
+          transform="translate(75) rotate(90)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+const Rocket = () => (
+  <svg
+    width="75"
+    height="75"
+    viewBox="0 0 75 75"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M62.5 68.75L50.4375 63.9063C52.625 59.125 54.1875 54.1875 55.1562 49.1563L62.5 68.75ZM24.5625 63.9063L12.5 68.75L19.8437 49.1563C20.8125 54.1875 22.375 59.125 24.5625 63.9063ZM37.5 6.25003C37.5 6.25003 53.125 12.5 53.125 37.5C53.125 47.1875 50.7812 55.4688 47.9062 61.9688C46.875 64.2188 44.6562 65.625 42.1875 65.625H32.8125C30.3437 65.625 28.125 64.2188 27.0937 61.9688C24.25 55.4688 21.875 47.1875 21.875 37.5C21.875 12.5 37.5 6.25003 37.5 6.25003ZM37.5 37.5C40.9375 37.5 43.75 34.6875 43.75 31.25C43.75 27.8125 40.9375 25 37.5 25C34.0625 25 31.25 27.8125 31.25 31.25C31.25 34.6875 34.0625 37.5 37.5 37.5Z"
+      className="fill-current text-black dark:text-white"
+      fillOpacity="0.87"
+    />
+  </svg>
+);
+
+const Lightning = () => (
+  <svg
+    width="39"
+    height="69"
+    viewBox="0 0 39 69"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.375 43.875H0.75L22.625 0.125V25.125H38.25L16.375 68.875V43.875Z"
+      className="fill-current text-black dark:text-white"
+      fillOpacity="0.87"
+    />
+  </svg>
+);
+
+export {
+  Dashboard,
+  Exclaimation,
+  Flag,
+  Graph,
+  People,
+  Tag,
+  Dash,
+  Discord,
+  Python,
+  Diamonds,
+  Rocket,
+  Lightning,
+};

@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { Splash, Features, Plans } from "@/components/Home";
-import Bar from "@/components/Home/Bar";
+import { Splash, Features, Plans, Bar, Benefits } from "@/components/Home";
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +8,7 @@ const Home: NextPage = () => {
       <Features />
       <Plans />
       <Bar />
+      <Benefits />
     </main>
   );
 };
