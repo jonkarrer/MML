@@ -4,7 +4,7 @@ import Social from "./lib/Social";
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-black grid place-items-center gap-9 pt-16 pb-8 lg:pb-10">
-      <Social />
+      <Social forHeader={false} />
       <div className="grid xl:grid-flow-col gap-8">
         <p className="text-black dark:text-white opacity-40 text-center m-auto">
           Market Maker Lite &copy; 2021. All Rights Reserved

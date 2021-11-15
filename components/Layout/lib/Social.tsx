@@ -1,8 +1,9 @@
-const Social = () => {
-  const wrapper =
-    "h-11 w-11 grid place-content-center bg-E7E7F3 dark:bg-1E1F20 rounded-base";
+const Social = ({ forHeader }: { forHeader: boolean }) => {
+  const wrapper = `h-11 w-11 grid place-content-center rounded-base ${
+    forHeader ? "bg-white bg-opacity-20" : "bg-E7E7F3 dark:bg-1E1F20"
+  } `;
   return (
-    <div className="grid grid-flow-col gap-4 w-max m-auto">
+    <div className="grid grid-flow-col gap-6 w-max m-auto">
       <span className={wrapper}>
         <Discord />
       </span>

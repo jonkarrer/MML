@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const NavLink: FC<ILink> = ({ text, address }) => (
   <Link passHref href={address}>
-    <span className="opacity-80 dark:text-white text-ty cursor-pointer">
+    <span className="opacity-80 dark:text-white text-xm lg:text-ty cursor-pointer">
       {text}
     </span>
   </Link>
