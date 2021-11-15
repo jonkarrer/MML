@@ -28,7 +28,7 @@
     @apply flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9;
   }
   .benefit .title {
-    @apply w-48 bg-3E8DFF md:w-auto md:ml-0 text-black dark:text-white opacity-80;
+    @apply w-48 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
   }
   .benefit .text {
     @apply text-xs col-span-2 text-black dark:text-white opacity-60;
