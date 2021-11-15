@@ -6,7 +6,7 @@ const Start = () => {
           <h2 className="dark:text-white opacity-80 text-left">
             Get started today
           </h2>
-          <p className="opacity-60 text-xs dark:text-white text-center w-56 lg:col-start-1 md:w-auto lg:text-base">
+          <p className="opacity-60 text-xs dark:text-white text-center w-56 lg:col-start-1 md:w-auto lg:text-left lg:text-base">
             Ready to own your investing? We{"'"}ve got you covered.
           </p>
         </div>
