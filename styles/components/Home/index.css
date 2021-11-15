@@ -2,7 +2,7 @@
 
 @layer components {
   .plan {
-    @apply text-center shadow-card rounded-base dark:bg-161616 md:w-110 md:m-auto lg:w-full;
+    @apply text-center w-full shadow-card rounded-base dark:bg-161616 md:w-110 md:m-auto lg:w-full;
   }
   .plan .wrapper {
     @apply grid place-items-center gap-9 md:gap-2;
@@ -28,7 +28,7 @@
     @apply flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9;
   }
   .benefit .title {
-    @apply w-48 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
+    @apply w-52 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
   }
   .benefit .text {
     @apply text-xs col-span-2 text-black dark:text-white opacity-60;
