@@ -22,15 +22,15 @@
   }
 
   .benefit {
-    @apply grid place-items-center grid-cols-2 m-auto w-71 md:w-64 md:gap-9 text-opacity-60 text-black dark:text-white;
+    @apply grid place-items-center gap-2 grid-cols-2 m-auto w-71 md:w-64 md:gap-9;
   }
   .benefit .headline-wrapper {
     @apply flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9;
   }
   .benefit .title {
-    @apply w-48 ml-3 md:w-auto md:ml-0;
+    @apply w-48 ml-3 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
   }
   .benefit .text {
-    @apply text-xs col-span-2;
+    @apply text-xs col-span-2 text-black dark:text-white opacity-60;
   }
 }

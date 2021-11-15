@@ -68,7 +68,7 @@ section {
     @apply font-bold text-xl md:text-3xl leading-tight;
   }
   h2 {
-    @apply font-medium opacity-80 text-lg md:text-2xl;
+    @apply font-medium opacity-80 text-lg md:text-2xl leading-tight;
   }
   h3 {
     @apply font-bold text-lg;

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Tile from "./lib/Tile";
+
 import { Dashboard, Exclaimation, Flag, Graph, People, Tag } from "./lib/icons";
 
 const Features: FC = () => (
@@ -32,3 +32,18 @@ const Features: FC = () => (
 );
 
 export default Features;
+
+interface ITile {
+  text: string;
+}
+
+const Tile: FC<ITile> = ({ children, text }) => (
+  <div className="grid place-items-center gap-7">
+    <div className="grid place-content-center h-26 w-26 rounded-3xl bg-EFF8FE dark:bg-282929">
+      {children}
+    </div>
+    <p className=" text-xs font-medium text-center w-26 opacity-60 dark:text-white">
+      {text}
+    </p>
+  </div>
+);
