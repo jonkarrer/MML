@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Dashboard, Exclaimation, Flag, Graph, People, Tag } from "./lib/icons";
 
 const Features: FC = () => (
-  <section className="bg-white dark:bg-black">
+  <section id="features" className="bg-white dark:bg-black">
     <article className="grid gap-12 m-auto md:gap-24">
       <h2 className="text-center dark:text-white">Simplify your research</h2>
 
