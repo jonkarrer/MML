@@ -43,8 +43,8 @@ const Mobile: NextPage = () => {
         <NavLink text="Learn" address="/" />
         <NavLink text="Support" address="/" />
         <NavLink text="Docs" address="/" />
-        <NavLink text="Account" address="/" />
-        <NavLink text="Dashboard" address="/" />
+        <NavLink text="Login" address="/" />
+        <NavLink text="Sign Up" address="/" />
       </nav>
       <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
         <Social forHeader={true} />
