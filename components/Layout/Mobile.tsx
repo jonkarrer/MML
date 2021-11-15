@@ -17,6 +17,7 @@ const Mobile: NextPage = () => {
   }
   return (
     <header
+      data-cy="desktop-mobile"
       className={`w-full py-6 flex flex-col top-0 lg:hidden z-50 ${
         toggle ? "fixed h-screen bg-light_grad dark:bg-dark_grad" : "absolute"
       } `}
@@ -24,6 +25,7 @@ const Mobile: NextPage = () => {
       <div className="flex items-center justify-between relative">
         <span className="text-xm text-white font-bold">mml</span>
         <span
+          data-cy="hamburger"
           onClick={() => handleClick()}
           className="h-7 w-11 grid place-content-center rounded-base bg-white bg-opacity-20"
         >
@@ -39,12 +41,22 @@ const Mobile: NextPage = () => {
         </span>
       </div>
       <nav className={`grid mt-14 gap-8 lg:hidden ${toggle ? "" : "hidden"} `}>
-        <NavLink text="Features" address="/" />
-        <NavLink text="Learn" address="/" />
-        <NavLink text="Support" address="/" />
-        <NavLink text="Docs" address="/" />
-        <NavLink text="Login" address="/" />
-        <NavLink text="Sign Up" address="/" />
+        <div onClick={() => handleClick()}>
+          <NavLink text="Features" address="/#features" newTab={false} />
+        </div>
+        <NavLink
+          text="Learn"
+          address="http://learn.marketmakerlite.com/"
+          newTab={true}
+        />
+        <NavLink text="Support" address="/support" newTab={false} />
+        <NavLink
+          text="Docs"
+          address="https://docs.marketmakerlite.com/"
+          newTab={true}
+        />
+        <NavLink text="Login" address="/login" newTab={false} />
+        <NavLink text="Sign Up" address="/signup" newTab={false} />
       </nav>
       <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
         <Social forHeader={true} />

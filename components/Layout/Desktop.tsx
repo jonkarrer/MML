@@ -4,7 +4,10 @@ import DashButton from "./lib/DashButton";
 
 const Desktop = () => {
   return (
-    <header className="hidden lg:flex items-center justify-between w-full absolute top-0 left-0 py-2">
+    <header
+      data-cy="desktop-header"
+      className="hidden lg:flex items-center justify-between w-full absolute top-0 left-0 py-2"
+    >
       <nav className="grid grid-flow-col items-center gap-8 text-white">
         <Logo />
         <NavLink text="Features" address="/#features" newTab={false} />
