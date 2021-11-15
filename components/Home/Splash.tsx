@@ -12,9 +12,14 @@ const Splash: FC = () => (
         <button className=" bg-white  text-2AABC1 dark:text-222353">
           Get Started
         </button>
-        <span className="hidden md:block text-ty cursor-pointer">
+        <a
+          href="https://docs.marketmakerlite.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="hidden md:block text-ty cursor-pointer"
+        >
           View the Docs
-        </span>
+        </a>
       </div>
     </article>
   </section>
