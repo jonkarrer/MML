@@ -9,7 +9,7 @@ const Footer = () => {
         <p className="text-black dark:text-white opacity-40 text-center m-auto">
           Market Maker Lite &copy; 2021. All Rights Reserved
         </p>
-        <nav className="lg:grid lg:grid-flow-col gap-5">
+        <nav className="hidden lg:grid lg:grid-flow-col gap-5">
           <NavLink text="Support" address="/" />
           <NavLink text="Learn" address="/" />
           <NavLink text="Documentation" address="/" />
