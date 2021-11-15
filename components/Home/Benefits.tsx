@@ -3,7 +3,7 @@ import { Diamonds, Rocket, Lightning } from "./lib/icons";
 
 const Benefits = () => (
   <section className="bg-white dark:bg-black">
-    <article className="grid gap-12 m-auto md:gap-24 lg:grid-cols-3">
+    <article className="grid gap-16 m-auto md:gap-24 lg:grid-cols-3">
       <h2 className="text-black text-opacity-80 dark:text-white text-center w-72 m-auto md:w-auto lg:col-span-3">
         We{`'`}re dedicated to you
       </h2>
