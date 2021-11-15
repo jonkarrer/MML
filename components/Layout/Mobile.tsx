@@ -28,7 +28,7 @@ const Mobile: NextPage = () => {
           className="h-7 w-11 grid place-content-center rounded-base bg-white bg-opacity-20"
         >
           {toggle ? (
-            <h6 className=" text-sm dark:text-white">X</h6>
+            <h6 className=" text-sm text-white">X</h6>
           ) : (
             <img
               className="w-7 h-7"
