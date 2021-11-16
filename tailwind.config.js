@@ -24,6 +24,8 @@ module.exports = {
       "2AABC1": "#2AABC1",
       white: "#ffffff",
       black: "#121212",
+      lite: "rgba(255,255,255, .6)",
+      dark: "rgba(0,0,0, .6)",
       EFF8FE: "#EFF8FE",
       BFE5FF: "#BFE5FF",
       282929: "#282929",
@@ -45,6 +47,8 @@ module.exports = {
       121212: "#121212",
       E7E7F3: "#E7E7F3",
       A5A5A6: "#A5A5A6",
+      "01C2FF": "#01C2FF",
+      "5F6CFF": "#5F6CFF",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
