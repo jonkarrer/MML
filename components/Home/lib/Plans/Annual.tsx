@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Annual: FC = () => {
   return (
-    <article className="plan py-9">
+    <article className="plan py-11">
       <div className="wrapper">
         <h3 className="title">Annual</h3>
 
@@ -13,7 +13,7 @@ const Annual: FC = () => {
 
           <ul className="benefits">
             <li>
-              <i className="font-bold">All free features, plus</i>
+              <i className="font-bold">All features, plus</i>
             </li>
             <li>15% savings</li>
             <li>Priority feature requests</li>

@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Card: FC = () => {
   return (
-    <article className="plan py-9">
+    <article className="plan py-11">
       <div className="wrapper">
         <h3 className="title">Free</h3>
 

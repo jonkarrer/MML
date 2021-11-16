@@ -20,17 +20,20 @@
   .plan .benefits {
     @apply hidden md:grid place-content-start gap-2 text-left text-ty font-light opacity-60 h-75 dark:text-white;
   }
+  .plan li {
+    @apply font-normal;
+  }
 
   .benefit {
-    @apply grid place-items-center gap-2 grid-cols-2 m-auto w-72 md:w-64 md:gap-9;
+    @apply grid place-items-center gap-2 grid-cols-2 m-auto w-72 md:w-64 md:gap-9 lg:h-82;
   }
   .benefit .headline-wrapper {
     @apply flex items-center justify-between w-full col-span-2 md:flex-col md:space-y-9;
   }
   .benefit .title {
-    @apply w-52 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
+    @apply font-bold w-52 md:w-auto md:ml-0 text-black dark:text-white opacity-80;
   }
   .benefit .text {
-    @apply text-xs col-span-2 text-black dark:text-white opacity-60;
+    @apply text-xs col-span-2 text-black dark:text-white opacity-60 lg:h-44;
   }
 }

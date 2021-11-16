@@ -2,13 +2,13 @@ import { FC } from "react";
 
 const Premium: FC = () => {
   return (
-    <article className="plan py-8 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative">
+    <article className="plan py-10 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative">
       <div className="wrapper">
         <span
           className="
-        text-x font-bold w-32 
+         text-ty font-bold w-44 
         bg-BFE5FF dark:bg-6BC3FF m-auto rounded 
-        md:absolute md:top-3 md:left-0 md:right-0"
+        md:absolute md:top-4 md:left-0 md:right-0"
         >
           Try free for 7 days!
         </span>

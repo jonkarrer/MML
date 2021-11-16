@@ -10,7 +10,9 @@ const Logo = () => (
         filter bg-opacity-30
         shadow-lg  dark:drop-shadow-logo"
     >
-      <h6 className="text-ty font-bold">mml</h6>
+      <h6 className="text-ty font-bold" style={{ marginBottom: "2px" }}>
+        mml
+      </h6>
     </div>
   </Link>
 );

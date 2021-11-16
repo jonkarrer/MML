@@ -7,6 +7,7 @@ module.exports = {
       x: "11px",
       xr: "12px",
       xty: "13px",
+      y: "15px",
       ty: "14px",
       xs: "16px",
       sm: "18px",
@@ -22,7 +23,7 @@ module.exports = {
       222353: "#222353",
       "2AABC1": "#2AABC1",
       white: "#ffffff",
-      black: "#000",
+      black: "#121212",
       EFF8FE: "#EFF8FE",
       BFE5FF: "#BFE5FF",
       282929: "#282929",
@@ -47,7 +48,7 @@ module.exports = {
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-      card: "0px 5px 1px rgba(0, 0, 0, 0.2)",
+      card: "0px 5px 5px rgba(0, 0, 0, 0.2)",
     },
     extend: {
       backgroundImage: {
@@ -55,12 +56,15 @@ module.exports = {
         dark_grad: "linear-gradient(110deg, #33123f, #12123e)",
       },
       width: {
+        6: "21px",
         25: "100px",
         26: "105px",
         34: "135px",
+        50: "200px",
         70: "260px",
         71: "271px",
         75: "300px",
+        82: "330px",
         85: "340px",
         100: "400px",
         110: "450px",
@@ -82,12 +86,15 @@ module.exports = {
         240: "1150px",
       },
       height: {
+        6: "21px",
         25: "100px",
         26: "105px",
         34: "135px",
+        50: "200px",
         70: "260px",
         71: "271px",
         75: "300px",
+        82: "330px",
         85: "376px",
         100: "400px",
         110: "450px",
@@ -106,6 +113,7 @@ module.exports = {
         220: "1000px",
         230: "1075px",
         240: "1150px",
+        "60vh": "60vh",
       },
       maxHeight: {
         700: "700px",
@@ -123,11 +131,14 @@ module.exports = {
         1100: "1100px",
         1200: "1200px",
       },
+      opacity: {
+        87: ".87",
+      },
       borderRadius: {
         base: "10px",
       },
       dropShadow: {
-        logo: "4px 5px 2px rgba(0, 0, 0, .3)",
+        logo: "4px 5px 5px rgba(0, 0, 0, .3)",
       },
     },
   },

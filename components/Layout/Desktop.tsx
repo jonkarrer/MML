@@ -31,12 +31,12 @@ const Desktop = () => {
           rel="noreferrer"
         >
           <img
-            className="w-8 cursor-pointer"
+            className="w-6 cursor-pointer"
             src="/icons/github.svg"
             alt="github icon"
           />
         </a>
-        <NavLink text="Login" address="/login" newTab={false} />
+        <NavLink text="Sign In" address="/login" newTab={false} />
         <NavLink text="Sign Up" address="/signup" newTab={false} />
         <DashButton />
       </menu>

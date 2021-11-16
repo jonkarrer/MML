@@ -8,18 +8,18 @@ const Social = ({ forHeader }: ISocial) => {
   } `;
   return (
     <div className="grid grid-flow-col gap-6 w-max m-auto">
-      <span className={wrapper}>
+      <a href="https://discord.gg/jjDcZcqXWy" className={wrapper}>
         <Discord forHeader={forHeader} />
-      </span>
-      <span className={wrapper}>
+      </a>
+      <a href="https://twitter.com/MarketMakerLite" className={wrapper}>
         <Twitter forHeader={forHeader} />
-      </span>
-      <span className={wrapper}>
+      </a>
+      <a href="https://www.reddit.com/r/Marketmakerlite/" className={wrapper}>
         <Reddit forHeader={forHeader} />
-      </span>
-      <span className={wrapper}>
+      </a>
+      <a href="/contact" className={wrapper}>
         <Email forHeader={forHeader} />
-      </span>
+      </a>
     </div>
   );
 };

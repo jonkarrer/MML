@@ -11,7 +11,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 body {
-  max-width: 1600px;
+  max-width: 2000px;
   position: relative;
 }
 a {
@@ -23,8 +23,7 @@ a {
 :root {
   --page-margin-x: 28px;
 }
-header,
-footer {
+header {
   padding: 0 var(--page-margin-x);
 }
 section {
