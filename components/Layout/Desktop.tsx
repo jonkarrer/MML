@@ -1,4 +1,5 @@
-import NavLink from "./lib/NavLink";
+import { ILink } from "@/utils/interfaces";
+import { FC } from "react";
 import Logo from "./lib/Logo";
 import DashButton from "./lib/DashButton";
 
@@ -31,7 +32,7 @@ const Desktop = () => {
           rel="noreferrer"
         >
           <img
-            className="w-6 cursor-pointer"
+            className="w-7 cursor-pointer"
             src="/icons/github.svg"
             alt="github icon"
           />
@@ -45,3 +46,11 @@ const Desktop = () => {
 };
 
 export default Desktop;
+
+const NavLink: FC<ILink> = ({ text, address, newTab }) => (
+  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
+    <span className="text-white text-xm lg:text-y font-bold cursor-pointer hover:opacity-60">
+      {text}
+    </span>
+  </a>
+);

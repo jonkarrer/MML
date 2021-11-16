@@ -1,7 +1,7 @@
 const Start = () => {
   return (
     <section className="bg-white dark:bg-black">
-      <article className="grid place-items-center gap-7 dark:bg-1E1F20 bg-white shadow-card rounded-base py-8 md:gap-8 lg:flex lg:justify-between lg:px-20 lg:h-52">
+      <article className="grid place-items-center gap-7 dark:bg-1E1F20 bg-white shadow-action rounded-base py-8 md:gap-8 lg:flex lg:justify-between lg:px-20 lg:h-52">
         <div className="grid gap-6 place-items-center lg:place-items-start lg:gap-3">
           <h2 className="font-bold dark:text-white opacity-80 text-left leading-none">
             Get started today

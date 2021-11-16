@@ -1,4 +1,5 @@
-import NavLink from "./lib/NavLink";
+import { FC } from "react";
+import { ILink } from "@/utils/interfaces";
 import Social from "./lib/Social";
 
 const Footer = () => {
@@ -13,47 +14,26 @@ const Footer = () => {
           Market Maker Lite &copy; 2021. All Rights Reserved.
         </p>
         <nav className="hidden lg:grid lg:grid-flow-col gap-5">
-          <a href="https://learn.marketmakerlite.com/">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Learn
-            </span>
-          </a>
-          <a href="/support">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Support
-            </span>
-          </a>
-
-          <a href="https://docs.marketmakerlite.com/">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Documentation
-            </span>
-          </a>
-          <a href="/terms">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Terms {`&`} Conditions
-            </span>
-          </a>
-          <a href="/policy">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Privacy Policy
-            </span>
-          </a>
-          <a href="/login">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Sign In
-            </span>
-          </a>
-          <a href="/signup">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Sign Up
-            </span>
-          </a>
-          <a href="/dashboard">
-            <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Dashboard
-            </span>
-          </a>
+          <NavLink
+            text="Learn"
+            address="https://learn.marketmakerlite.com/"
+            newTab={true}
+          />
+          <NavLink text="Support" address="/support" newTab={false} />
+          <NavLink
+            text="Documentation"
+            address="https://docs.marketmakerlite.com/"
+            newTab={true}
+          />
+          <NavLink
+            text={`Terms ${"&"} Conditions`}
+            address="/terms"
+            newTab={false}
+          />
+          <NavLink text="Privacy Policy" address="/policy" newTab={false} />
+          <NavLink text="Sign In" address="/login" newTab={false} />
+          <NavLink text="Sign Up" address="/signup" newTab={false} />
+          <NavLink text="Dashboard" address="/dashboard" newTab={false} />
         </nav>
       </div>
     </footer>
@@ -61,3 +41,11 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const NavLink: FC<ILink> = ({ text, address, newTab }) => (
+  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
+    <span className="text-black dark:text-white text-xm lg:text-y font-medium cursor-pointer">
+      {text}
+    </span>
+  </a>
+);

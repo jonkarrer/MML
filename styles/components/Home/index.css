@@ -2,7 +2,7 @@
 
 @layer components {
   .plan {
-    @apply text-center w-full shadow-card rounded-base dark:bg-161616 md:w-110 md:m-auto lg:w-full;
+    @apply text-center w-full shadow-plan rounded-base dark:bg-161616 md:w-110 md:m-auto lg:w-full;
   }
   .plan .wrapper {
     @apply grid place-items-center gap-9 md:gap-2;
