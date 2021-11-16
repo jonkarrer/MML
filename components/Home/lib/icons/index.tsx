@@ -75,7 +75,7 @@ const Tag = () => (
 const Dash = () => (
   <div className="lg:dark:opacity-50">
     <svg
-      className="fill-current text-white lg:text-B9B9B9 lg:dark:text-white lg:h-14"
+      className="fill-current text-B9B9B9 dark:text-white dark:opacity-60 "
       width="80"
       height="70"
       viewBox="0 0 80 75"
@@ -88,9 +88,8 @@ const Dash = () => (
 
 const Python = () => (
   <svg
-    className=""
-    width="65"
-    height="55"
+    width="71"
+    height="68"
     viewBox="0 0 65 62"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -109,8 +108,8 @@ const Python = () => (
 const Discord = () => (
   <svg
     className="fill-current text-B9B9B9 dark:text-white dark:opacity-60"
-    width="61"
-    height="39"
+    width="67"
+    height="43"
     viewBox="0 0 61 39"
     xmlns="http://www.w3.org/2000/svg"
   >
