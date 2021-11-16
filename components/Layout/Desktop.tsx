@@ -27,7 +27,7 @@ const Desktop = () => {
 
       <menu className="grid grid-flow-col items-center gap-8 text-white">
         <a
-          href="https://github.com/jonkarrer/mml"
+          href="https://github.com/MarketMakerLite"
           target="_blank"
           rel="noreferrer"
         >
