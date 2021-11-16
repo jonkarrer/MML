@@ -44,7 +44,7 @@ export default Footer;
 
 const NavLink: FC<ILink> = ({ text, address, newTab }) => (
   <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
-    <span className="text-black dark:text-white text-xm lg:text-y font-medium cursor-pointer">
+    <span className="opacity-87 dark:text-white text-xm lg:text-y cursor-pointer hover:opacity-60">
       {text}
     </span>
   </a>
