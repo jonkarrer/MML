@@ -51,6 +51,7 @@ module.exports = {
       plan: "0px 5px 5px rgba(0, 0, 0, 0.1)",
       action: "0px 5px 10px rgba(0, 0, 0, 0.15)",
       button: "0px 5px 5px rgba(0, 0, 0, 0.5)",
+      plan_button: "0px 5px 5px rgba(0, 0, 0, 0.15)",
     },
     extend: {
       backgroundImage: {

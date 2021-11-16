@@ -3,7 +3,7 @@ interface ISocial {
 }
 
 const Social = ({ forHeader }: ISocial) => {
-  const wrapper = `h-11 w-11 grid place-content-center rounded-base ${
+  const wrapper = `h-11 w-11 grid place-content-center rounded-base hover:shadow-plan_button ${
     forHeader ? "bg-white bg-opacity-20" : "bg-E7E7F3 dark:bg-1E1F20"
   } `;
   return (

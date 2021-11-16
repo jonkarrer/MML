@@ -20,8 +20,28 @@ const Card: FC = () => {
             <li>Financial literacy tools</li>
           </ul>
         </div>
-        <button className="bg-FFEED0 dark:bg-FFD184">Get Started</button>
+        <button className="bg-FFEED0 dark:bg-FFD184 relative hover:shadow-plan_button">
+          Get Started
+        </button>
       </div>
+      <style jsx>
+        {`
+          button:hover::after {
+            content: "›";
+            font-size: 24px;
+            font-weight: bold;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 20px;
+            margin: auto;
+
+            height: 40px;
+            width: 40px;
+          }
+        `}
+      </style>
     </article>
   );
 };

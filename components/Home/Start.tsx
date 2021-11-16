@@ -10,8 +10,28 @@ const Start = () => {
             Ready to own your investing? We{"'"}ve got you covered.
           </p>
         </div>
-        <button className="dark:bg-8678FF bg-D1CCFF ">Subscribe Now</button>
+        <button className="dark:bg-8678FF bg-D1CCFF relative hover:shadow-plan_button">
+          Subscribe Now
+        </button>
       </article>
+      <style jsx>
+        {`
+          button:hover::after {
+            content: "›";
+            font-size: 24px;
+            font-weight: bold;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 6px;
+            margin: auto;
+
+            height: 40px;
+            width: 40px;
+          }
+        `}
+      </style>
     </section>
   );
 };
