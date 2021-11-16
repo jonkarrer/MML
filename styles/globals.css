@@ -1,5 +1,6 @@
 @import url("./components/button.css");
 @import url("./components/Home/index.css");
+
 * {
   box-sizing: border-box;
 }

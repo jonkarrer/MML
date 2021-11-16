@@ -17,9 +17,13 @@ const Social = ({ forHeader }: ISocial) => {
       <a href="https://www.reddit.com/r/Marketmakerlite/" className={wrapper}>
         <Reddit forHeader={forHeader} />
       </a>
-      <a href="https://github.com/MarketMakerLite" className={wrapper}>
-        {forHeader ? <Github /> : ""}
-      </a>
+      {forHeader ? (
+        <a href="https://github.com/MarketMakerLite" className={wrapper}>
+          <Github />
+        </a>
+      ) : (
+        ""
+      )}
       <a href="/contact" className={wrapper}>
         <Email forHeader={forHeader} />
       </a>
