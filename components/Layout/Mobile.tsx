@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import { useEffect, useState } from "react";
-import NavLink from "./lib/NavLink";
+import { useState, FC } from "react";
+import { ILink } from "@/utils/interfaces";
 import Social from "./lib/Social";
 
 const Mobile: NextPage = () => {
@@ -55,8 +55,9 @@ const Mobile: NextPage = () => {
           address="https://docs.marketmakerlite.com/"
           newTab={true}
         />
-        <NavLink text="Login" address="/login" newTab={false} />
+        <NavLink text="Sign In" address="/login" newTab={false} />
         <NavLink text="Sign Up" address="/signup" newTab={false} />
+        <NavLink text="Dashboard" address="/dashboard" newTab={false} />
       </nav>
       <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
         <Social forHeader={true} />
@@ -66,3 +67,9 @@ const Mobile: NextPage = () => {
 };
 
 export default Mobile;
+
+const NavLink: FC<ILink> = ({ text, address, newTab }) => (
+  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
+    <span className="text-white text-xm lg:text-y cursor-pointer">{text}</span>
+  </a>
+);

@@ -39,7 +39,7 @@ const Footer = () => {
               Privacy Policy
             </span>
           </a>
-          <a href="/signin">
+          <a href="/login">
             <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
               Sign In
             </span>
@@ -49,9 +49,9 @@ const Footer = () => {
               Sign Up
             </span>
           </a>
-          <a href="/dashbaord">
+          <a href="/dashboard">
             <span className="text-black dark:text-white text-xm lg:text-y font-bold cursor-pointer">
-              Dashbaord
+              Dashboard
             </span>
           </a>
         </nav>

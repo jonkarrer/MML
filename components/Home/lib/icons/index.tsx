@@ -120,9 +120,9 @@ const Discord = () => (
 
 const Diamonds = () => (
   <svg
-    width="75"
-    height="75"
-    viewBox="0 0 75 75"
+    width="63"
+    height="46.88"
+    viewBox="0 0 65 70"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_2_94)">
@@ -147,9 +147,9 @@ const Diamonds = () => (
 
 const Rocket = () => (
   <svg
-    width="75"
-    height="75"
-    viewBox="0 0 75 75"
+    width="62.5"
+    height="60"
+    viewBox="0 0 70 70"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -163,8 +163,8 @@ const Rocket = () => (
 
 const Lightning = () => (
   <svg
-    width="75"
-    height="69"
+    width="65"
+    height="60"
     viewBox="0 0 39 69"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
