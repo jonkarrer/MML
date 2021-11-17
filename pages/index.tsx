@@ -10,7 +10,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <main className="">
+    <main className="bg-white dark:bg-black">
       <Splash />
       <Features />
       <Plans />

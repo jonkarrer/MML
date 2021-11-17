@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useState, FC } from "react";
 import { ILink } from "@/utils/interfaces";
-import Social from "./lib/Social";
+import SocialIcons from "./lib/Social";
 
 const Mobile: NextPage = () => {
   const [toggle, setToggle] = useState(false);
@@ -18,7 +18,7 @@ const Mobile: NextPage = () => {
   return (
     <header
       data-cy="desktop-mobile"
-      className={`w-full py-6 flex flex-col top-0 lg:hidden z-50 ${
+      className={`flex flex-col w-full py-6 top-0 lg:hidden z-50 ${
         toggle ? "fixed h-screen bg-light_grad dark:bg-dark_grad" : "absolute"
       } `}
     >
@@ -27,7 +27,7 @@ const Mobile: NextPage = () => {
         <span
           data-cy="hamburger"
           onClick={() => handleClick()}
-          className="h-7 w-11 grid place-content-center rounded-base bg-white bg-opacity-20"
+          className="grid place-content-center h-7 w-11 rounded-base bg-white bg-opacity-20"
         >
           {toggle ? (
             <h6 className=" text-sm text-white">X</h6>
@@ -61,7 +61,7 @@ const Mobile: NextPage = () => {
         <NavLink text="Dashboard" address="/dashboard" newTab={false} />
       </nav>
       <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
-        <Social forHeader={true} />
+        <SocialIcons forHeader={true} />
       </div>
     </header>
   );

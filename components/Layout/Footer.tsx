@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer
       data-cy="footer"
-      className="bg-white dark:bg-black grid place-items-center gap-9 pt-16 pb-8 lg:pb-10"
+      className="grid place-items-center gap-9 pt-16 pb-8 lg:pb-10 bg-white dark:bg-black "
     >
       <Social forHeader={false} />
       <div className="grid xl:grid-flow-col gap-8">
