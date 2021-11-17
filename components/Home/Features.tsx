@@ -9,7 +9,7 @@ const Features: FC = () => (
         Simplify your research
       </h2>
 
-      <div className="grid place-items-center grid-cols-2 gap-12 md:grid-cols-3 md:w-170 md:m-auto">
+      <div className="grid place-items-center grid-cols-2 gap-12 md:grid-cols-3 md:w-140 md:m-auto lg:w-170">
         <Tile text="Actionable Notifications">
           <Exclaimation />
         </Tile>
