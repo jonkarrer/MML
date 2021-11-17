@@ -61,7 +61,6 @@ section {
 
 /* TAILWIND BOILERPLATE ******************/
 @tailwind base;
-
 @tailwind utilities;
 
 @layer base {
@@ -80,7 +79,7 @@ section {
   body {
     @apply m-auto;
   }
-  article {
+  .wrapper {
     @apply max-w-1000 m-auto;
   }
 }

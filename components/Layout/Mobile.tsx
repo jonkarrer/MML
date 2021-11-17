@@ -1,9 +1,9 @@
-import type { NextPage } from "next";
+import Link from "next/dist/client/link";
 import { useState, FC } from "react";
 import { ILink } from "@/utils/interfaces";
 import SocialIcons from "./lib/Social";
 
-const Mobile: NextPage = () => {
+const Mobile: FC = () => {
   const [toggle, setToggle] = useState(false);
 
   function handleClick() {
@@ -23,7 +23,11 @@ const Mobile: NextPage = () => {
       } `}
     >
       <div className="flex items-center justify-between relative">
-        <span className="text-xm text-white font-bold">mml</span>
+        <Link passHref href="/">
+          <span className="text-xm text-white font-bold cursor-pointer">
+            mml
+          </span>
+        </Link>
         <span
           data-cy="hamburger"
           onClick={() => handleClick()}
@@ -33,7 +37,7 @@ const Mobile: NextPage = () => {
             <h6 className=" text-sm text-white">X</h6>
           ) : (
             <img
-              className="w-7 h-7"
+              className="w-7 h-7 cursor-pointer"
               src="/icons/burger.svg"
               alt="burger icon"
             />

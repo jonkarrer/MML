@@ -1,6 +1,6 @@
 const Start = () => (
   <section>
-    <article className="grid place-items-center gap-7 dark:bg-1E1F20 bg-white shadow-action rounded-base py-8 md:gap-8 lg:flex lg:justify-between lg:px-20 lg:h-52">
+    <article className="wrapper grid place-items-center gap-7 dark:bg-1E1F20 bg-white shadow-action rounded-base py-8 md:gap-8 lg:flex lg:justify-between lg:px-20 lg:h-52">
       <div className="grid gap-6 place-items-center lg:place-items-start lg:gap-3">
         <h2 className="font-bold opacity-87 dark:text-white text-left leading-none">
           Get started today

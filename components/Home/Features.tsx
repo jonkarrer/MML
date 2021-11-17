@@ -4,7 +4,7 @@ import { Dashboard, Exclaimation, Flag, Graph, People, Tag } from "./lib/icons";
 
 const Features: FC = () => (
   <section id="features">
-    <article className="grid gap-12 m-auto md:gap-24">
+    <article className="wrapper grid gap-12 m-auto md:gap-24">
       <h2 className="text-center opacity-87 dark:text-white">
         Simplify your research
       </h2>

@@ -4,7 +4,7 @@ import Background from "./lib/Bar/Background";
 
 const Bar: FC = () => (
   <section className=" bg-white dark:bg-black overflow-hidden">
-    <article className="grid gap-12 m-auto w-full lg:grid-cols-2 lg:gap-0 lg:h-60 relative">
+    <article className="wrapper grid gap-12 m-auto w-full lg:grid-cols-2 lg:gap-0 lg:h-60 relative">
       <div className="w-full flex items-center justify-center lg:justify-start">
         <Background />
 
