@@ -26,7 +26,7 @@ const Card = ({ image, text, color }: ICard) => {
     <div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className={`grid gap-9 place-content-center py-7 rounded-xl lg:py-0 lg:gap-0 lg:h-full text-dark dark:text-lite lg:flex-1 cursor-pointer hover:shadow-card hover:text-white ${color}`}
+      className={`grid gap-9 place-content-center w-full py-7 rounded-xl lg:py-0 lg:gap-0 lg:h-full text-dark dark:text-lite lg:flex-1 cursor-pointer hover:shadow-card hover:text-white ${color}`}
     >
       <div className="grid place-items-center gap-8 lg:h-36 lg:gap-0">
         {image === "Dash" ? (

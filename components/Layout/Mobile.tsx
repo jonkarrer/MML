@@ -40,7 +40,8 @@ const Mobile: NextPage = () => {
           )}
         </span>
       </div>
-      <nav className={`grid mt-14 gap-8 lg:hidden ${toggle ? "" : "hidden"} `}>
+
+      <nav className={`grid mt-14 gap-6 lg:hidden ${toggle ? "" : "hidden"} `}>
         <div onClick={() => handleClick()}>
           <NavLink text="Features" address="/#features" newTab={false} />
         </div>
@@ -70,6 +71,8 @@ export default Mobile;
 
 const NavLink: FC<ILink> = ({ text, address, newTab }) => (
   <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
-    <span className="text-white text-xm lg:text-y cursor-pointer">{text}</span>
+    <span className="text-white text-xm lg:text-y hover:font-black cursor-pointer">
+      {text}
+    </span>
   </a>
 );
