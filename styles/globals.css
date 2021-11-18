@@ -38,7 +38,7 @@ section {
     --page-margin-x: 64px;
   }
   section {
-    padding: 107px var(--page-margin-x);
+    padding: 107.5px var(--page-margin-x);
   }
 }
 /*Lg*/
