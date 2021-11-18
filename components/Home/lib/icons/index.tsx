@@ -117,6 +117,7 @@ const Rocket = () => (
 
 const Lightning = () => (
   <svg
+    className="lg:mt-1"
     width="65"
     height="60"
     viewBox="0 0 39 69"

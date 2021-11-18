@@ -1,8 +1,6 @@
 @import url("./components/button.css");
 @import url("./components/Home/index.css");
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
 * {
   box-sizing: border-box;
 }
@@ -10,7 +8,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
 }
 body {
   max-width: 2000px;
@@ -37,7 +38,7 @@ section {
     --page-margin-x: 64px;
   }
   section {
-    padding: 100px var(--page-margin-x);
+    padding: 107px var(--page-margin-x);
   }
 }
 /*Lg*/

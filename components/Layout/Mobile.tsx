@@ -63,10 +63,10 @@ const Mobile: FC = () => {
         <NavLink text="Sign In" address="/login" newTab={false} />
         <NavLink text="Sign Up" address="/signup" newTab={false} />
         <NavLink text="Dashboard" address="/dashboard" newTab={false} />
+        <div className="mt-6">
+          <SocialIcons forHeader={true} />
+        </div>
       </nav>
-      <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
-        <SocialIcons forHeader={true} />
-      </div>
     </header>
   );
 };

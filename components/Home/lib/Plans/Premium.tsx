@@ -33,28 +33,10 @@ const Premium: FC = () => {
             <li>Earn rewards</li>
           </ul>
         </div>
-        <button className="bg-BFE5FF dark:bg-6BC3FF relative hover:shadow-plan_button">
+        <button className="bg-BFE5FF hover:bg-6BC3FF dark:bg-6BC3FF dark:hover:bg-BFE5FF">
           Subscribe
         </button>
       </div>
-      <style jsx>
-        {`
-          button:hover::after {
-            content: "›";
-            font-size: 24px;
-            font-weight: bold;
-
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 25px;
-            margin: auto;
-
-            height: 40px;
-            width: 40px;
-          }
-        `}
-      </style>
     </article>
   );
 };

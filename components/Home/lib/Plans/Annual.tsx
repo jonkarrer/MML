@@ -20,28 +20,10 @@ const Annual: FC = () => {
             <li>Support our development</li>
           </ul>
         </div>
-        <button className="bg-D1CCFF dark:bg-8678FF relative hover:shadow-plan_button">
+        <button className="bg-D1CCFF hover:bg-8678FF dark:bg-8678FF dark:hover:bg-D1CCFF">
           Support {`&`} Save
         </button>
       </div>
-      <style jsx>
-        {`
-          button:hover::after {
-            content: "›";
-            font-size: 24px;
-            font-weight: bold;
-
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 5px;
-            margin: auto;
-
-            height: 40px;
-            width: 40px;
-          }
-        `}
-      </style>
     </article>
   );
 };
