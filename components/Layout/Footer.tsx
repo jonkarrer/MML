@@ -5,7 +5,7 @@ import Social from "./lib/Social";
 const Footer: FC = () => (
   <footer
     data-cy="footer"
-    className="grid place-items-center gap-9 pt-16 pb-8 lg:pb-10 bg-white dark:bg-black "
+    className="grid place-items-center gap-9 pt-16 pb-8 lg:pb-10 bg-white dark:bg-121212 "
   >
     <Social forHeader={false} />
     <div className="grid xl:grid-flow-col gap-8">
