@@ -5,7 +5,7 @@ import { Dashboard, Exclaimation, Flag, Graph, People, Tag } from "./lib/icons";
 const Features: FC = () => (
   <section id="features">
     <article className="wrapper grid gap-12 m-auto md:gap-24">
-      <h2 className="text-center opacity-87 dark:text-white">
+      <h2 className="text-center opacity-87 text-black dark:text-white">
         Simplify your research
       </h2>
 
@@ -44,7 +44,7 @@ const Tile: FC<ITile> = ({ children, text }) => (
     <div className="grid place-content-center h-26 w-26 rounded-3xl bg-EFF8FE dark:bg-282929">
       {children}
     </div>
-    <p className=" text-xs font-medium text-center w-26 opacity-87 dark:text-white">
+    <p className=" text-xs font-medium text-center w-26 opacity-87 text-black dark:text-white">
       {text}
     </p>
   </div>

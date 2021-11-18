@@ -6,7 +6,7 @@ import { Diamonds, Rocket, Lightning } from "./lib/icons";
 const Benefits: FC = () => (
   <section>
     <div className="wrapper grid gap-16 m-auto md:gap-24">
-      <h2 className="opacity-87 dark:text-white text-center w-72 m-auto md:w-auto">
+      <h2 className="opacity-87 text-232333 dark:text-white text-center w-72 m-auto md:w-auto">
         We{`'`}re dedicated to you
       </h2>
 

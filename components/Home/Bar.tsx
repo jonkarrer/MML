@@ -8,7 +8,7 @@ const Bar: FC = () => (
       <div className="w-full flex items-center justify-center lg:justify-start">
         <Background />
 
-        <h2 className="opacity-87 dark:text-white text-center md:w-120 lg:text-left lg:w-110">
+        <h2 className="opacity-87 text-black dark:text-white text-center md:w-120 lg:text-left lg:w-110">
           Find the approach that fits your style
         </h2>
       </div>

@@ -7,7 +7,7 @@ const Plans: FC = () => {
   return (
     <section>
       <article className="wrapper grid gap-16 lg:gap-24">
-        <h2 className="text-center md:w-120 md:m-auto lg:w-auto opacity-87 dark:text-white">
+        <h2 className="text-center md:w-120 md:m-auto lg:w-auto opacity-87 text-black dark:text-white">
           Try free or sign up for premium features
         </h2>
         <div className="grid gap-10 lg:grid-cols-3 lg:gap-6">
