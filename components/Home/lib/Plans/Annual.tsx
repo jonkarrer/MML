@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const Annual: FC = () => {
   return (
-    <article className="plan py-11 dark:border-1">
+    <article className="plan py-11 dark:border-121212 dark:border-1">
       <div className="wrapper">
         <h3 className="title">Annual</h3>
 
