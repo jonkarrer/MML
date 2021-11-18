@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const Premium: FC = () => {
   return (
-    <article className="plan py-10 border-t-8 border-BFE5FF dark:border-6BC3FF md:relative">
+    <article className="plan py-10 border-t-8 border-t-BFE5FF dark:border-t-6BC3FF md:relative">
       <div className="wrapper">
         <span
           className="
