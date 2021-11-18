@@ -41,7 +41,10 @@ const Card = ({ image, text, color, link }: ICard) => {
   const router = useRouter();
   return (
     <div
-      onClick={() => router.push(link)}
+      onClick={() => {
+        router.push(link);
+        setHover(true);
+      }}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={`grid gap-9 place-content-center w-full py-7 rounded-xl lg:py-0 lg:gap-0 lg:h-full text-dark dark:text-lite lg:flex-1 cursor-pointer hover:shadow-card hover:text-white ${color}`}
