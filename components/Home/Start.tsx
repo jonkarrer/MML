@@ -1,4 +1,6 @@
-const Start = () => (
+import { FC } from "react";
+
+const Start: FC = () => (
   <section>
     <article className="wrapper grid place-items-center gap-7 dark:bg-1E1F20 bg-white shadow-action rounded-base py-8 md:gap-8 lg:flex lg:justify-between lg:px-20 lg:h-52">
       <div className="grid gap-6 place-items-center lg:place-items-start lg:gap-3">

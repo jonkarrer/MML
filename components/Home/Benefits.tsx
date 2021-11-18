@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Diamonds, Rocket, Lightning } from "./lib/icons";
 
-const Benefits = () => (
+const Benefits: FC = () => (
   <section>
     <div className="wrapper grid gap-16 m-auto md:gap-24">
       <h2 className="opacity-87 dark:text-white text-center w-72 m-auto md:w-auto">
@@ -21,6 +21,7 @@ const Benefits = () => (
             Support for NFTs, futures, and forex coming soon.
           </p>
         </article>
+
         <article className="benefit">
           <div className="headline-wrapper">
             <Rocket />
@@ -32,6 +33,7 @@ const Benefits = () => (
             or ask the community a question.
           </p>
         </article>
+
         <article className="benefit">
           <div className="headline-wrapper">
             <Lightning />

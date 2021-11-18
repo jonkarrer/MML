@@ -3,7 +3,7 @@ import { FC } from "react";
 import Logo from "./lib/Logo";
 import DashButton from "./lib/DashButton";
 
-const Desktop = () => {
+const Desktop: FC = () => {
   return (
     <header
       data-cy="desktop-header"

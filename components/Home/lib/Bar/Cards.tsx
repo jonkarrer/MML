@@ -1,32 +1,31 @@
 import { FC, useState } from "react";
 import { useRouter } from "next/dist/client/router";
 import { Python, Dash, Discord } from "../icons";
-const Cards: FC = () => {
-  return (
-    <div className="grid gap-8 place-items-center m-auto w-full md:w-96 lg:flex lg:gap-0 lg:w-full h-full">
-      <Card
-        image="Dash"
-        text="Use the Dashboard"
-        color="hover:bg-00DCCF"
-        link="/dashboard"
-      />
 
-      <Card
-        image="Python"
-        text="Start Developing"
-        color="hover:bg-01C2FF"
-        link="https://docs.marketmakerlite.com/"
-      />
+const Cards: FC = () => (
+  <div className="grid gap-8 place-items-center m-auto w-full md:w-96 lg:flex lg:gap-0 lg:w-full h-full">
+    <Card
+      image="Dash"
+      text="Use the Dashboard"
+      color="hover:bg-00DCCF"
+      link="/dashboard"
+    />
 
-      <Card
-        image="Discord"
-        text="Join the community"
-        color="hover:bg-5F6CFF"
-        link="https://discord.gg/jjDcZcqXWy"
-      />
-    </div>
-  );
-};
+    <Card
+      image="Python"
+      text="Start Developing"
+      color="hover:bg-01C2FF"
+      link="https://docs.marketmakerlite.com/"
+    />
+
+    <Card
+      image="Discord"
+      text="Join the community"
+      color="hover:bg-5F6CFF"
+      link="https://discord.gg/jjDcZcqXWy"
+    />
+  </div>
+);
 
 export default Cards;
 

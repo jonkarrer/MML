@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { FC } from "react";
 
-const Logo = () => (
+const Logo: FC = () => (
   <Link passHref href="/">
     <div
       className="

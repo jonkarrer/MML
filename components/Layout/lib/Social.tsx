@@ -1,8 +1,10 @@
+import { FC } from "react";
+
 interface ISocial {
   forHeader: boolean;
 }
 
-const Social = ({ forHeader }: ISocial) => {
+const Social: FC<ISocial> = ({ forHeader }) => {
   const wrapper = `h-11 w-11 grid place-content-center rounded-base hover:opacity-80 ${
     forHeader ? "bg-white bg-opacity-20" : "bg-E7E7F3 dark:bg-1E1F20"
   } `;

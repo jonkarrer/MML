@@ -1,10 +1,10 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import MobileHeader from "./Mobile";
 import DesktopHeader from "./Desktop";
 import Footer from "./Footer";
+import { FC } from "react";
 
-const Layout: NextPage = ({ children }) => {
+const Layout: FC = ({ children }) => {
   return (
     <div>
       <Head>
