@@ -20,6 +20,7 @@ module.exports = {
       "3xl": "64px",
     },
     colors: {
+      clear: "rgba(0,0,0,0)",
       222353: "#222353",
       "2AABC1": "#2AABC1",
       white: "#ffffff",
@@ -147,6 +148,9 @@ module.exports = {
       },
       borderRadius: {
         base: "10px",
+      },
+      borderWidth: {
+        1: "1px",
       },
       dropShadow: {
         logo: "4px 5px 5px rgba(0, 0, 0, .3)",

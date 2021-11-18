@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const Card: FC = () => {
   return (
-    <article className="plan py-11">
+    <article className="plan py-11 dark:border-1">
       <div className="wrapper">
         <h3 className="title">Free</h3>
 
