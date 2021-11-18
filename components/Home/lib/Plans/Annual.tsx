@@ -1,3 +1,5 @@
+/// Styles are located in styles/components/Home/index.css
+
 import { FC } from "react";
 
 const Annual: FC = () => {

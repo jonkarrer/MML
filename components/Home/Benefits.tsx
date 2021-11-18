@@ -1,3 +1,5 @@
+/// Styles are located in styles/components/Home/index.css
+
 import { FC } from "react";
 import { Diamonds, Rocket, Lightning } from "./lib/icons";
 
