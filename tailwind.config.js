@@ -22,7 +22,7 @@ module.exports = {
     colors: {
       clear: "rgba(0,0,0,0)",
       222353: "#222353",
-      "2AABC1": "#2AABC1",
+      "2AABC1": "rgba(52,183,219, 1)",
       white: "#ffffff",
       black: "#232333",
       dk_bg: "#121212",
