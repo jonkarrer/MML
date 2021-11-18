@@ -112,8 +112,8 @@ const Email = ({ forHeader }: ISocial) => (
 
 const Github = ({ forHeader }: ISocial) => (
   <svg
-    width="30"
-    height="35"
+    width="26"
+    height="30"
     viewBox="0 0 35 35"
     xmlns="http://www.w3.org/2000/svg"
   >
