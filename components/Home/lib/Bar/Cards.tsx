@@ -44,7 +44,7 @@ const Card = ({ image, text, color, link }: ICard) => {
       onClick={() => router.push(link)}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className={`grid gap-9 place-content-center w-full py-7 rounded-xl lg:py-0 lg:gap-0 lg:h-full text-white lg:text-black dark:text-white lg:dark:text-lite lg:hover:text-white lg:flex-1 cursor-pointer hover:shadow-card ${color}`}
+      className={`grid gap-9 place-content-center w-full h-54 rounded-xl lg:gap-0 lg:h-full text-white lg:text-black dark:text-white lg:dark:text-lite lg:hover:text-white lg:flex-1 cursor-pointer hover:shadow-card ${color}`}
     >
       <div className="grid place-items-center gap-8 lg:h-36 lg:gap-0">
         {image === "Dash" ? (
