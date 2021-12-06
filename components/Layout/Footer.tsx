@@ -15,33 +15,24 @@ const Footer: FC = () => (
       </p>
 
       <nav className="hidden lg:grid lg:grid-flow-col gap-5">
-        <NavLink
-          text="Learn"
-          address="https://learn.marketmakerlite.com/"
-          newTab={true}
-        />
+        <NavLink text="Learn" address="https://learn.marketmakerlite.com/" />
 
-        <NavLink text="Support" address="/support" newTab={false} />
+        <NavLink text="Support" address="/support" />
 
         <NavLink
           text="Documentation"
           address="https://docs.marketmakerlite.com/"
-          newTab={true}
         />
 
-        <NavLink
-          text={`Terms ${"&"} Conditions`}
-          address="/terms"
-          newTab={false}
-        />
+        <NavLink text={`Terms ${"&"} Conditions`} address="/terms" />
 
-        <NavLink text="Privacy Policy" address="/policy" newTab={false} />
+        <NavLink text="Privacy Policy" address="/policy" />
 
-        <NavLink text="Sign In" address="/login" newTab={false} />
+        <NavLink text="Sign In" address="/login" />
 
-        <NavLink text="Sign Up" address="/signup" newTab={false} />
+        <NavLink text="Sign Up" address="/signup" />
 
-        <NavLink text="Dashboard" address="/dashboard" newTab={false} />
+        <NavLink text="Dashboard" address="/dashboard" />
       </nav>
     </div>
   </footer>
