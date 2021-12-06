@@ -44,6 +44,8 @@
   </p>
 </p>
 
+[![Product Name Screen Shot][product-screenshot]](mml.vercel.app)
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -86,8 +88,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 - [Playwright](https://playwright.dev/)
 - [Firebase](https://www.supabase.io)
 - [Modern Javascript](https://javascript.info)
-
-[![Product Name Screen Shot][product-screenshot]](mml.vercel.app)
 
 ## Roadmap
 
