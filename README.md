@@ -54,14 +54,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -84,8 +76,6 @@ Here are the Goals:
 - Allow payment capture via Stripe.
 - Use subscriptions to allow access to certain content.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
@@ -99,43 +89,15 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 [![Product Name Screen Shot][product-screenshot]](mml.vercel.app)
 
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](docs.marketmakerlite.com)_
-
 ## Roadmap
+
+### BETA PHASE
+
+- Front-end development.
+- API build and deploy on server.
+- Algorithm testing
+- Payment systems
+- Authentication system
 
 See the [open issues](https://github.com/jonkarrer/mml/issues) for a list of proposed features (and known issues).
 
