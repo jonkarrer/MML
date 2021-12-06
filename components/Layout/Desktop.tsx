@@ -24,6 +24,7 @@ const Desktop: FC = () => {
             newTab={true}
           />
         </nav>
+
         <menu className="grid grid-flow-col items-center gap-8 text-white">
           <a
             href="https://github.com/MarketMakerLite"

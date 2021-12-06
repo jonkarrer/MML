@@ -1,4 +1,4 @@
-/// Styles are located in styles/components/Home/index.css
+/// Styles are located in styles/components/Home/Plan.css
 
 import { FC } from "react";
 

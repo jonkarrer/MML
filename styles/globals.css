@@ -85,4 +85,7 @@ section {
   .wrapper {
     @apply max-w-1000 m-auto;
   }
+  .text-87 {
+    @apply opacity-87 text-232333 dark:text-white;
+  }
 }
