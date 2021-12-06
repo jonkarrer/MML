@@ -2,9 +2,9 @@ import Head from "next/head";
 import MobileHeader from "./Mobile";
 import DesktopHeader from "./Desktop";
 import Footer from "./Footer";
-import { FC } from "react";
+import type { NextPage } from "next";
 
-const Layout: FC = ({ children }) => {
+const Layout: NextPage = ({ children }) => {
   return (
     <div>
       <Head>

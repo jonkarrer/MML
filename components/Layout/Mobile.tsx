@@ -3,21 +3,31 @@ import { useState, FC } from "react";
 import { ILink } from "@/utils/interfaces";
 import SocialIcons from "./lib/Social";
 
+const NavLink: FC<ILink> = ({ text, address, newTab }) => (
+  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
+    <span className="text-white text-xm lg:text-y hover:font-black cursor-pointer">
+      {text}
+    </span>
+  </a>
+);
+
 const Mobile: FC = () => {
   const [toggle, setToggle] = useState(false);
 
   function handleClick() {
     setToggle(!toggle);
 
+    //Prevent scrolling when header is open.
     if (toggle) {
       document.body.style.overflow = "auto";
     } else {
       document.body.style.overflow = "hidden";
     }
   }
+
   return (
     <header
-      data-cy="desktop-mobile"
+      data-test="mobile-header"
       className={`flex flex-col w-full py-6 top-0 lg:hidden z-50 ${
         toggle ? "fixed h-screen bg-light_grad dark:bg-dark_grad" : "absolute"
       } `}
@@ -29,7 +39,7 @@ const Mobile: FC = () => {
           </span>
         </Link>
         <span
-          data-cy="hamburger"
+          data-test="hamburger"
           onClick={() => handleClick()}
           className="grid place-content-center h-7 w-11 rounded-base bg-white bg-opacity-20"
         >
@@ -72,11 +82,3 @@ const Mobile: FC = () => {
 };
 
 export default Mobile;
-
-const NavLink: FC<ILink> = ({ text, address, newTab }) => (
-  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
-    <span className="text-white text-xm lg:text-y hover:font-black cursor-pointer">
-      {text}
-    </span>
-  </a>
-);
