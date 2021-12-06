@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jonkarrer/mml">
-    MML
+    <p>MML</p>
   </a>
 
   <h3 align="center">MARKET MAKER LITE</h3>
