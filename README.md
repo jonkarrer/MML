@@ -25,13 +25,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/jonkarrer/mml">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <h1 style="font-weight:bold;">MML</h1>
   </a>
 
   <h3 align="center">MARKET MAKER LITE</h3>
 
   <p align="center">
-    MAKE THE MARKET YOU DESERVE
+    Make the market you deserve.
     <br />
     <a href="https://github.com/jonkarrer/mml"><strong>Explore the docs »</strong></a>
     <br />
