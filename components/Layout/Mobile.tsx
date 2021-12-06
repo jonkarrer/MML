@@ -8,13 +8,6 @@ const Mobile: FC = () => {
 
   function handleClick() {
     setToggle(!toggle);
-
-    //Prevent scrolling when header is open.
-    if (toggle) {
-      document.body.style.overflow = "auto";
-    } else {
-      document.body.style.overflow = "hidden";
-    }
   }
 
   return (

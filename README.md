@@ -74,15 +74,15 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](mml.vercel.app)
+This software aims to enhance your decision making in financial sectors. We will augment your view in several markets with our proprietary algorithms. Eveything is displayed on gorgeous, easy to read charts.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Here are the Goals:
 
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+- Create an app that allows users to view market data in realtime.
+- Use a database to save and display data in realtime.
+- Organize user authentication and profiles.
+- Allow payment capture via Stripe.
+- Use subscriptions to allow access to certain content.
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
@@ -90,13 +90,14 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+- [Typescript](https://www.typescriptlang.org)
+- [Next.js](https://www.nextjs.org)
+- [Tailwind](https://tailwindcss.com/)
+- [Playwright](https://playwright.dev/)
+- [Firebase](https://www.supabase.io)
+- [Modern Javascript](https://javascript.info)
 
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
-
-<!-- GETTING STARTED -->
+[![Product Name Screen Shot][product-screenshot]](mml.vercel.app)
 
 ## Getting Started
 
@@ -128,21 +129,15 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<!-- USAGE EXAMPLES -->
-
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
+_For more examples, please refer to the [Documentation](docs.marketmakerlite.com)_
 
 ## Roadmap
 
 See the [open issues](https://github.com/jonkarrer/mml/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
 
 ## Contributing
 
@@ -154,38 +149,17 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
-
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jon Karrer - karrerjon@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<!-- ACKNOWLEDGEMENTS -->
+Project Link: [https://jonkarrer.github.io/Recipe_App/](https://jonkarrer.github.io/mml/)
 
 ## Acknowledgements
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/jonkarrer/mml.svg?style=for-the-badge
 [contributors-url]: https://github.com/jonkarrer/mml/graphs/contributors
