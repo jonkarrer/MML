@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("Mobile Tests", () => {
+test.describe("Mobile", () => {
   test.beforeEach(async ({ page }) => {
-    //Visit page
     await page.goto("http://localhost:3000");
     //Display all console calls
     page.on("console", (msg) => console.log(msg.text()));
@@ -10,21 +9,41 @@ test.describe("Mobile Tests", () => {
   //Set viewport
   test.use({ viewport: { width: 500, height: 800 } });
 
-  //Events
   test("Click hamburger", async ({ page }) => {
-    const hamburger = page.locator("[data-test='hamburger']");
-    const navMenu = page.locator("[data-test='nav-menu']");
+    const hamburger = page.locator("data-test=hamburger");
+    const navMenu = page.locator("data-test=mobile-nav");
 
-    //Before
     await expect(navMenu).toHaveCSS("display", "none");
 
-    //Event
     await hamburger.click();
     await expect(hamburger).toHaveText("X");
     await expect(navMenu).toHaveCSS("display", "grid");
   });
+
+  test.describe("Follow Links", async () => {
+    test.beforeEach(async ({ page }) => {
+      const hamburger = page.locator("data-test=hamburger");
+      await hamburger.click();
+    });
+    test.afterEach(async ({ page }) => {
+      await page.goBack();
+    });
+
+    test("Feature", async ({ page }) => {
+      await page.click("a:has-text('Features')");
+      await expect(page).toHaveURL("http://localhost:3000/#features");
+    });
+    test("Learn", async ({ page }) => {
+      await page.click("a:has-text('Learn')");
+      await expect(page).toHaveURL("https://learn.marketmakerlite.com/");
+    });
+    test("Docs", async ({ page }) => {
+      await page.click("a:has-text('Docs')");
+      await expect(page).toHaveURL("https://docs.marketmakerlite.com/");
+    });
+  });
 });
 
-//open inspector with command$ export PWDEBUG=1
+//open inspector with command_terminal$ PWDEBUG=1 npx playwright test
 //then npx playwright test
 //This is to open the browser and see the tests.

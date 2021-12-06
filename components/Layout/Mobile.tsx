@@ -48,26 +48,18 @@ const Mobile: FC = () => {
       </div>
 
       <nav
-        data-test="nav-menu"
+        data-test="mobile-nav"
         className={`${toggle ? "grid" : "hidden"} mt-14 gap-6 lg:hidden`}
       >
         <div onClick={() => handleClick()}>
-          <NavLink text="Features" address="/#features" newTab={false} />
+          <NavLink text="Features" address="/#features" />
         </div>
-        <NavLink
-          text="Learn"
-          address="http://learn.marketmakerlite.com/"
-          newTab={true}
-        />
-        <NavLink text="Support" address="/support" newTab={false} />
-        <NavLink
-          text="Docs"
-          address="https://docs.marketmakerlite.com/"
-          newTab={true}
-        />
-        <NavLink text="Sign In" address="/login" newTab={false} />
-        <NavLink text="Sign Up" address="/signup" newTab={false} />
-        <NavLink text="Dashboard" address="/dashboard" newTab={false} />
+        <NavLink text="Learn" address="http://learn.marketmakerlite.com/" />
+        <NavLink text="Support" address="/support" />
+        <NavLink text="Docs" address="https://docs.marketmakerlite.com/" />
+        <NavLink text="Sign In" address="/login" />
+        <NavLink text="Sign Up" address="/signup" />
+        <NavLink text="Dashboard" address="/dashboard" />
       </nav>
 
       <div className={`${toggle ? "flex" : "hidden"} flex-1 lg:hidden `}>

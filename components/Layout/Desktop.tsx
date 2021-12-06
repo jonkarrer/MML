@@ -11,18 +11,10 @@ const Desktop: FC = () => {
       <div className="wrapper flex items-center justify-between m-auto">
         <nav className="grid grid-flow-col items-center gap-8 text-white">
           <Logo />
-          <NavLink text="Features" address="/#features" newTab={false} />
-          <NavLink
-            text="Learn"
-            address="http://learn.marketmakerlite.com/"
-            newTab={true}
-          />
-          <NavLink text="Support" address="/support" newTab={false} />
-          <NavLink
-            text="Docs"
-            address="https://docs.marketmakerlite.com/"
-            newTab={true}
-          />
+          <NavLink text="Features" address="/#features" />
+          <NavLink text="Learn" address="http://learn.marketmakerlite.com/" />
+          <NavLink text="Support" address="/support" />
+          <NavLink text="Docs" address="https://docs.marketmakerlite.com/" />
         </nav>
 
         <menu className="grid grid-flow-col items-center gap-8 text-white">
@@ -37,8 +29,8 @@ const Desktop: FC = () => {
               alt="github icon"
             />
           </a>
-          <NavLink text="Sign In" address="/login" newTab={false} />
-          <NavLink text="Sign Up" address="/signup" newTab={false} />
+          <NavLink text="Sign In" address="/login" />
+          <NavLink text="Sign Up" address="/signup" />
           <a href="/dashboard">
             <span className="w-24 h-9 grid place-content-center bg-white rounded-full bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
               <h6 className="dark:text-white text-ty font-medium">Dashboard</h6>
