@@ -1,15 +1,7 @@
 import Link from "next/dist/client/link";
 import { useState, FC } from "react";
-import { ILink } from "@/utils/interfaces";
-import SocialIcons from "./lib/Social";
-
-const NavLink: FC<ILink> = ({ text, address, newTab }) => (
-  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
-    <span className="text-white text-xm lg:text-y hover:font-black cursor-pointer">
-      {text}
-    </span>
-  </a>
-);
+import SocialMediaIcons from "./lib/Mobile/Social";
+import NavLink from "./lib/Mobile/NavLink";
 
 const Mobile: FC = () => {
   const [toggle, setToggle] = useState(false);
@@ -44,7 +36,7 @@ const Mobile: FC = () => {
           className="grid place-content-center h-7 w-11 rounded-base bg-white bg-opacity-20"
         >
           {toggle ? (
-            <h6 className=" text-sm text-white">X</h6>
+            <h6 className="text-sm text-white">X</h6>
           ) : (
             <img
               className="w-7 h-7 cursor-pointer"
@@ -55,7 +47,10 @@ const Mobile: FC = () => {
         </span>
       </div>
 
-      <nav className={`grid mt-14 gap-6 lg:hidden ${toggle ? "" : "hidden"} `}>
+      <nav
+        data-test="nav-menu"
+        className={`${toggle ? "grid" : "hidden"} mt-14 gap-6 lg:hidden`}
+      >
         <div onClick={() => handleClick()}>
           <NavLink text="Features" address="/#features" newTab={false} />
         </div>
@@ -74,8 +69,9 @@ const Mobile: FC = () => {
         <NavLink text="Sign Up" address="/signup" newTab={false} />
         <NavLink text="Dashboard" address="/dashboard" newTab={false} />
       </nav>
-      <div className={`flex-1 flex lg:hidden ${toggle ? "" : "hidden"}`}>
-        <SocialIcons forHeader={true} />
+
+      <div className={`${toggle ? "flex" : "hidden"} flex-1 lg:hidden `}>
+        <SocialMediaIcons />
       </div>
     </header>
   );

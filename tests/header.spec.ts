@@ -12,13 +12,19 @@ test.describe("Mobile Tests", () => {
 
   //Events
   test("Click hamburger", async ({ page }) => {
-    const query = "[data-test='hamburger']";
-    const hamburger = page.locator(query);
+    const hamburger = page.locator("[data-test='hamburger']");
+    const navMenu = page.locator("[data-test='nav-menu']");
 
+    //Before
+    await expect(navMenu).toHaveCSS("display", "none");
+
+    //Event
     await hamburger.click();
     await expect(hamburger).toHaveText("X");
+    await expect(navMenu).toHaveCSS("display", "grid");
   });
 });
 
-//open inspector with $ export PWDEBUG=1
+//open inspector with command$ export PWDEBUG=1
 //then npx playwright test
+//This is to open the browser and see the tests.

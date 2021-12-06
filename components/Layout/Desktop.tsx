@@ -1,7 +1,6 @@
-import { ILink } from "@/utils/interfaces";
 import { FC } from "react";
-import Logo from "./lib/Logo";
-import DashButton from "./lib/DashButton";
+import Logo from "./lib/Desktop/Logo";
+import NavLink from "./lib/Desktop/NavLink";
 
 const Desktop: FC = () => {
   return (
@@ -39,7 +38,11 @@ const Desktop: FC = () => {
           </a>
           <NavLink text="Sign In" address="/login" newTab={false} />
           <NavLink text="Sign Up" address="/signup" newTab={false} />
-          <DashButton />
+          <a href="/dashboard">
+            <span className="w-24 h-9 grid place-content-center bg-white rounded-full bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
+              <h6 className="dark:text-white text-ty font-medium">Dashboard</h6>
+            </span>
+          </a>
         </menu>
       </div>
     </header>
@@ -47,11 +50,3 @@ const Desktop: FC = () => {
 };
 
 export default Desktop;
-
-const NavLink: FC<ILink> = ({ text, address, newTab }) => (
-  <a href={address} target={newTab ? "_blank" : ""} rel="noreferrer">
-    <span className="text-white text-xm lg:text-y font-medium cursor-pointer hover:opacity-60">
-      {text}
-    </span>
-  </a>
-);
