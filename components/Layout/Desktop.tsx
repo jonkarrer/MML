@@ -4,10 +4,7 @@ import NavLink from "./lib/Desktop/NavLink";
 
 const Desktop: FC = () => {
   return (
-    <header
-      data-cy="desktop-header"
-      className="hidden lg:block w-full absolute top-0 left-0 py-2"
-    >
+    <header className="hidden lg:block w-full absolute top-0 left-0 py-2">
       <div className="wrapper flex items-center justify-between m-auto">
         <nav className="grid grid-flow-col items-center gap-8 text-white">
           <Logo />

@@ -1,10 +1,11 @@
+//open inspector with command_terminal$ PWDEBUG=1 npx playwright test
+//otherwise for headless test run command_terminal$ npx playwright test
+
 import { test, expect } from "@playwright/test";
 
 test.describe("Mobile", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("http://localhost:3000");
-    //Display all console calls
-    page.on("console", (msg) => console.log(msg.text()));
   });
   //Set viewport
   test.use({ viewport: { width: 500, height: 800 } });
@@ -44,6 +45,23 @@ test.describe("Mobile", () => {
   });
 });
 
-//open inspector with command_terminal$ PWDEBUG=1 npx playwright test
-//then npx playwright test
-//This is to open the browser and see the tests.
+test.describe("Desktop", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto("http://localhost:3000");
+  });
+  //Set viewport
+  test.use({ viewport: { width: 1100, height: 800 } });
+
+  test("Feature", async ({ page }) => {
+    await page.click("data-test=Features");
+    await expect(page).toHaveURL("http://localhost:3000/#features");
+  });
+  test("Learn", async ({ page }) => {
+    await page.click("data-test=Learn");
+    await expect(page).toHaveURL("https://learn.marketmakerlite.com/");
+  });
+  test("Docs", async ({ page }) => {
+    await page.click("data-test=Docs");
+    await expect(page).toHaveURL("https://docs.marketmakerlite.com/");
+  });
+});
