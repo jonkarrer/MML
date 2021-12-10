@@ -26,8 +26,8 @@ const Desktop: FC = () => {
               alt="github icon"
             />
           </a>
-          <NavLink text="Sign In" address="/login" />
-          <NavLink text="Sign Up" address="/signup" />
+          <NavLink text="Sign In" address="/auth" />
+          <NavLink text="Sign Up" address="/auth/signup" />
           <a href="/dashboard">
             <span className="w-24 h-9 grid place-content-center bg-white rounded-full bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
               <h6 className="dark:text-white text-ty font-medium">Dashboard</h6>

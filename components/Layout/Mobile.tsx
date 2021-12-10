@@ -50,8 +50,8 @@ const Mobile: FC = () => {
         <NavLink text="Learn" address="http://learn.marketmakerlite.com/" />
         <NavLink text="Support" address="/support" />
         <NavLink text="Docs" address="https://docs.marketmakerlite.com/" />
-        <NavLink text="Sign In" address="/login" />
-        <NavLink text="Sign Up" address="/signup" />
+        <NavLink text="Sign In" address="/auth" />
+        <NavLink text="Sign Up" address="/auth/signup" />
         <NavLink text="Dashboard" address="/dashboard" />
       </nav>
 
