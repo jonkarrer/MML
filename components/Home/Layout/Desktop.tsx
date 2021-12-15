@@ -39,7 +39,7 @@ const Desktop: FC = () => {
             <Developers />
           </ToggleContext.Provider>
 
-          <NavLink text="Pricing" address="/pricing" />
+          <NavLink text="Pricing" address="/#pricing" />
           <NavLink text="Sign Up" address="/auth/signup" />
         </nav>
         <a href="/dashboard">
