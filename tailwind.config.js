@@ -4,11 +4,11 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     fontSize: {
-      x: "11px",
-      xr: "12px",
-      xty: "13px",
-      y: "15px",
-      ty: "14px",
+      11: "11px",
+      12: "12px",
+      13: "13px",
+      14: "14px",
+      15: "15px",
       xs: "16px",
       sm: "18px",
       base: "20px",
@@ -25,7 +25,6 @@ module.exports = {
       "2AABC1": "rgba(52,183,219, 1)",
       white: "#ffffff",
       black: "#232333",
-      dk_bg: "#121212",
       lite: "rgba(255,255,255, .6)",
       dark: "rgba(0,0,0, .6)",
       EFF8FE: "#EFF8FE",
@@ -51,6 +50,9 @@ module.exports = {
       A5A5A6: "#A5A5A6",
       "01C2FF": "#01C2FF",
       "5F6CFF": "#5F6CFF",
+      "006EFF": "#006EFF",
+      "000-80": "rgba(0,0,0, .8)",
+      F6F8FE: "#F6F8FE",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -62,8 +64,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        light_grad: "linear-gradient(110deg, #31C1B9, #38AEFF)",
-        dark_grad: "linear-gradient(110deg, #33123f, #12123e)",
+        light_grad: "linear-gradient(110deg, #00D6C9, #0059CE)",
+        dark_grad: "linear-gradient(110deg, #6C0293, #12123E)",
       },
       width: {
         6: "21px",
@@ -87,6 +89,7 @@ module.exports = {
         150: "650px",
         160: "700px",
         170: "750px",
+        179: "779px",
         180: "800px",
         190: "850px",
         195: "875px",
@@ -118,6 +121,7 @@ module.exports = {
         150: "650px",
         160: "700px",
         170: "750px",
+        179: "779px",
         180: "800px",
         190: "850px",
         200: "900px",
@@ -147,6 +151,7 @@ module.exports = {
         87: ".87",
       },
       borderRadius: {
+        button: "5px",
         base: "10px",
       },
       borderWidth: {

@@ -16,7 +16,7 @@ const Splash: FC = () => (
           href="https://docs.marketmakerlite.com/"
           target="_blank"
           rel="noreferrer"
-          className="hidden md:block text-ty cursor-pointer hover:underline hover:opacity-60"
+          className="hidden md:block font-bold text-14 cursor-pointer hover:underline hover:opacity-60"
         >
           View the Docs
         </a>

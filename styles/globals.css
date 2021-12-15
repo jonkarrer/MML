@@ -86,6 +86,6 @@ section {
     @apply max-w-1000 m-auto;
   }
   .text-87 {
-    @apply opacity-87 text-232333 dark:text-white;
+    @apply opacity-87 font-medium text-232333 dark:text-white;
   }
 }

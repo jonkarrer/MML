@@ -2,8 +2,8 @@ import { FC } from "react";
 import { ILink } from "@/utils/interfaces";
 
 const NavLink: FC<ILink> = ({ text, address }) => (
-  <a href={address}>
-    <span className="text-white text-xm lg:text-y hover:font-black cursor-pointer">
+  <a data-test={text} href={address}>
+    <span className="text-white text-xm lg:text-15 font-medium cursor-pointer hover:opacity-60">
       {text}
     </span>
   </a>

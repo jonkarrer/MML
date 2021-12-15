@@ -8,7 +8,7 @@ const Premium: FC = () => {
       <div className="wrapper">
         <span
           className="
-         text-ty font-bold w-44 
+         text-14 font-bold w-44 
         bg-BFE5FF dark:bg-6BC3FF m-auto rounded 
         md:absolute md:top-4 md:left-0 md:right-0"
         >

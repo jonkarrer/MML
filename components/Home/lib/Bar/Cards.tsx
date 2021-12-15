@@ -54,7 +54,7 @@ const Card = ({ image, text, color, link }: ICard) => {
         ) : (
           <Discord hover={hover} />
         )}
-        <p className="w-24 text-sm lg:text-ty font-bold text-center lg:self-end hover:opacity-100">
+        <p className="w-24 text-sm lg:text-14 font-bold text-center lg:self-end hover:opacity-100">
           {text}
         </p>
       </div>

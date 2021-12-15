@@ -18,7 +18,7 @@
     @apply text-xm;
   }
   .plan .benefits {
-    @apply hidden md:grid place-content-start gap-2 text-left text-ty font-light opacity-60 h-75 dark:text-white;
+    @apply hidden md:grid place-content-start gap-2 text-left text-14 font-light opacity-60 h-75 dark:text-white;
   }
   .plan li {
     @apply font-normal;

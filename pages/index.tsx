@@ -7,17 +7,20 @@ import {
   Benefits,
   Start,
 } from "@/components/Home";
+import Layout from "@/components/Home/Layout/Layout";
 
 const Home: NextPage = () => {
   return (
-    <main className="bg-white dark:bg-dk_bg">
-      <Splash />
-      <Features />
-      <Plans />
-      <Bar />
-      <Benefits />
-      <Start />
-    </main>
+    <Layout>
+      <main className="bg-white dark:bg-121212">
+        <Splash />
+        <Features />
+        <Plans />
+        <Bar />
+        <Benefits />
+        <Start />
+      </main>
+    </Layout>
   );
 };
 
