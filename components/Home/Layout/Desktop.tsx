@@ -24,9 +24,9 @@ const Desktop: FC = () => {
 
   return (
     <header className="hidden lg:block w-full absolute top-0 left-0 py-2">
-      <div className="wrapper flex items-center justify-between m-auto">
+      <div className="flex items-center justify-between m-auto w-179">
         <h6 className="text-white text-xm font-black">mml</h6>
-        <nav className="grid grid-flow-col items-center gap-14 text-white">
+        <nav className="grid grid-flow-col place-items-center items-center gap-14 text-white">
           <NavLink text="Features" address="/#features" />
 
           <ToggleContext.Provider
