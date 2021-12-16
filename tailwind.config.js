@@ -20,11 +20,13 @@ module.exports = {
       "3xl": "64px",
     },
     colors: {
+      "lt.50": "rgba(300,300,300, .5)",
+      "dk.25": "rgba(0,0,0, .25)",
       clear: "rgba(0,0,0,0)",
       222353: "#222353",
       "2AABC1": "rgba(52,183,219, 1)",
       white: "#ffffff",
-      black: "#232333",
+      black: "#121212",
       lite: "rgba(255,255,255, .6)",
       dark: "rgba(0,0,0, .6)",
       EFF8FE: "#EFF8FE",
@@ -59,13 +61,13 @@ module.exports = {
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-      plan: "0px 5px 5px rgba(0, 0, 0, 0.1)",
       action: "0px 5px 10px rgba(0, 0, 0, 0.15)",
       button: "0px 5px 5px rgba(0, 0, 0, 0.5)",
-      plan_button: "0px 5px 5px rgba(0, 0, 0, 0.15)",
       card: "0px 5px 15px 1px rgba(0, 0, 0, 0.15)",
       "0,5,15,5,.25": "0px 5px 15px 5px rgba(0,0,0, 0.25)",
+      price_card: "0px 0px 0px 3px rgba(0, 110, 255, .25)",
     },
+
     extend: {
       backgroundImage: {
         light_grad: "linear-gradient(110deg, #00D6C9, #0059CE)",
@@ -83,6 +85,7 @@ module.exports = {
         71: "271px",
         75: "300px",
         82: "330px",
+        84: "365px",
         85: "340px",
         100: "400px",
         110: "450px",
@@ -116,6 +119,7 @@ module.exports = {
         71: "271px",
         75: "300px",
         82: "330px",
+        84: "365px",
         85: "376px",
         100: "400px",
         110: "450px",
@@ -152,6 +156,9 @@ module.exports = {
         1000: "1000px",
         1100: "1100px",
         1200: "1200px",
+      },
+      gap: {
+        2.5: "10px",
       },
       opacity: {
         87: ".87",
