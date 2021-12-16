@@ -54,6 +54,8 @@ module.exports = {
       "000-80": "rgba(0,0,0, .8)",
       F6F8FE: "#F6F8FE",
       "3D5368": "#3D5368",
+      D4D4D4: "#D4D4D4",
+      232333: "#232333",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",

@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import {
   Splash,
   Features,
-  Plans,
+  Pricing,
   Bar,
   Benefits,
   Start,
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <main className="bg-white dark:bg-121212">
         <Splash />
         <Features />
-        <Plans />
+        <Pricing />
         <Bar />
         <Benefits />
         <Start />
