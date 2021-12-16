@@ -2,6 +2,8 @@ import Link from "next/dist/client/link";
 import { useState, FC } from "react";
 import SocialMediaIcons from "./lib/Mobile/Social";
 import NavLink from "./lib/Mobile/NavLink";
+import { Support } from "./lib/Mobile/Support";
+import { Developers } from "./lib/Mobile/Developers";
 
 const Mobile: FC = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,7 +15,7 @@ const Mobile: FC = () => {
   return (
     <header
       data-test="mobile-header"
-      className={`flex flex-col w-full py-6 top-0 lg:hidden z-50 ${
+      className={`flex flex-col w-full pt-6 pb-11 top-0 lg:hidden z-50 ${
         toggle ? "fixed h-screen bg-light_grad dark:bg-dark_grad" : "absolute"
       } `}
     >
@@ -45,17 +47,18 @@ const Mobile: FC = () => {
         className={`${toggle ? "grid" : "hidden"} mt-14 gap-6 lg:hidden`}
       >
         <div onClick={() => handleClick()}>
-          <NavLink text="Features" address="/#features" />
+          <NavLink text="FEATURES" address="/#features" />
         </div>
-        <NavLink text="Learn" address="http://learn.marketmakerlite.com/" />
-        <NavLink text="Support" address="/support" />
-        <NavLink text="Docs" address="https://docs.marketmakerlite.com/" />
-        <NavLink text="Sign In" address="/auth" />
-        <NavLink text="Sign Up" address="/auth/signup" />
-        <NavLink text="Dashboard" address="/dashboard" />
+        <Support />
+        <Developers />
+        <div onClick={() => handleClick()}>
+          <NavLink text="PRICING" address="/#pricing" />
+        </div>
+        <NavLink text="SIGN UP" address="/auth/signup" />
+        <NavLink text="DASHBOARD" address="/dashboard" />
       </nav>
 
-      <div className={`${toggle ? "flex" : "hidden"} flex-1 lg:hidden `}>
+      <div className={`${toggle ? "grid" : "hidden"} flex-1 lg:hidden `}>
         <SocialMediaIcons />
       </div>
     </header>

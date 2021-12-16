@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Start, About, Learn, Blog, Contact, Triangle } from "./Links";
-import { useToggleContext } from "../../Desktop";
+import { useToggleContext } from "../../../Desktop";
 
 export const Support: FC = () => {
   const toggle = useToggleContext();

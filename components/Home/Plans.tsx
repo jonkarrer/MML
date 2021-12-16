@@ -1,7 +1,4 @@
 import { FC } from "react";
-import Free from "./lib/Plans/Free";
-import Premium from "./lib/Plans/Premium";
-import Annual from "./lib/Plans/Annual";
 
 const Plans: FC = () => {
   return (
@@ -10,11 +7,7 @@ const Plans: FC = () => {
         <h2 className="text-87 text-center md:w-120 md:m-auto lg:w-auto">
           Try free or sign up for premium features
         </h2>
-        <div className="grid gap-10 lg:grid-cols-3 lg:gap-6">
-          <Free />
-          <Premium />
-          <Annual />
-        </div>
+        <div className="grid gap-10 lg:grid-cols-3 lg:gap-6"></div>
       </article>
     </section>
   );

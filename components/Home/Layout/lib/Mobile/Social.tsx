@@ -1,24 +1,18 @@
 import { FC } from "react";
 
 const Social: FC = () => {
-  const wrapper = `h-11 w-11 grid place-content-center rounded-base hover:opacity-80 bg-white bg-opacity-20`;
   return (
-    <div className="grid grid-flow-col gap-6 w-max m-auto">
-      <a href="https://discord.gg/jjDcZcqXWy" className={wrapper}>
+    <div className="grid grid-flow-col gap-9 w-max m-auto h-full items-end">
+      <a href="https://discord.gg/jjDcZcqXWy">
         <Discord />
       </a>
-      <a href="https://twitter.com/MarketMakerLite" className={wrapper}>
+      <a href="https://twitter.com/MarketMakerLite">
         <Twitter />
       </a>
-      <a href="https://www.reddit.com/r/Marketmakerlite/" className={wrapper}>
+      <a href="https://www.reddit.com/r/Marketmakerlite/">
         <Reddit />
       </a>
-
-      <a href="https://github.com/MarketMakerLite" className={wrapper}>
-        <Github />
-      </a>
-
-      <a href="/contact" className={wrapper}>
+      <a href="/contact">
         <Email />
       </a>
     </div>

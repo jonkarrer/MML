@@ -7,8 +7,8 @@ import {
   useContext,
 } from "react";
 import NavLink from "./lib/Desktop/NavLink";
-import { Support } from "./lib/Support";
-import { Developers } from "./lib/Developers";
+import { Support } from "./lib/Desktop/Support";
+import { Developers } from "./lib/Desktop/Developers";
 
 interface IContext {
   userSelection: string;
