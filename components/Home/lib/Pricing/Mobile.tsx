@@ -44,7 +44,7 @@ export const MobilePrice: FC = () => (
           </p>
         </span>
       </div>
-      <button className="bg-black text-white h-11 dark:bg-white dark:text-black">
+      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black">
         Sign Up
       </button>
     </article>
@@ -87,7 +87,7 @@ export const MobilePrice: FC = () => (
           </p>
         </span>
       </div>
-      <button className="bg-black text-white h-11 dark:bg-white dark:text-black">
+      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black">
         Subscribe
       </button>
     </article>
@@ -129,7 +129,7 @@ export const MobilePrice: FC = () => (
           </p>
         </span>
       </div>
-      <button className="bg-006EFF text-white h-11 dark:text-black">
+      <button className="bg-006EFF text-white h-11 w-full dark:text-black">
         Subscribe
       </button>
     </article>
@@ -169,7 +169,7 @@ export const MobilePrice: FC = () => (
           </p>
         </span>
       </div>
-      <button className="bg-black text-white h-11 dark:bg-white dark:text-black">
+      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black">
         Subscribe
       </button>
     </article>
