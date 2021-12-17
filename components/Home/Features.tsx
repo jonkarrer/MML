@@ -14,7 +14,6 @@ const Features: FC = () => (
         <Tile text="Modern Dashboard">
           <Dashboard />
         </Tile>
-
         <Tile text="Market Analytics">
           <Graph />
         </Tile>

@@ -29,7 +29,7 @@ export const Basic = () => {
         <Feature name="Exclusive Discord channels" />
       </div>
 
-      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black">
+      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black hover:opacity-80">
         Subscribe
       </button>
     </CardWrapper>

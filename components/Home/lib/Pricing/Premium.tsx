@@ -31,7 +31,7 @@ export const Premium = () => {
         <Feature name="All Discord channels" />
       </div>
 
-      <button className="bg-006EFF text-white h-11 w-full dark:text-black">
+      <button className="bg-006EFF text-white h-11 w-full dark:text-black hover:opacity-80">
         Subscribe
       </button>
     </CardWrapper>
