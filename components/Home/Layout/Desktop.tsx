@@ -43,7 +43,7 @@ const Desktop: FC = () => {
           <NavLink text="Sign Up" address="/auth/signup" />
         </nav>
         <a href="/dashboard">
-          <span className="w-24 h-9 grid place-content-center rounded-button bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
+          <span className="w-24 h-9 grid place-content-center bg-white rounded-button bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
             <h6 className="text-white text-14 font-medium">Dashboard</h6>
           </span>
         </a>
