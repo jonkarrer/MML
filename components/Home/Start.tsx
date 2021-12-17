@@ -9,7 +9,7 @@ const Start: FC = () => (
           Ready to own your investing? We{"'"}ve got you covered.
         </p>
       </div>
-      <button className="bg-006EFF hover:bg-8678FF dark:hover:bg-D1CCFF text-white">
+      <button className="bg-006EFF hover:bg-3E8DFF text-white">
         Subscribe Now
       </button>
     </article>
