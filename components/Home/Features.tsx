@@ -14,11 +14,12 @@ const Features: FC = () => (
         <Tile text="Modern Dashboard">
           <Dashboard />
         </Tile>
-        <Tile text="Unusual Options">
-          <Flag />
-        </Tile>
+
         <Tile text="Market Analytics">
           <Graph />
+        </Tile>
+        <Tile text="Unusual Options">
+          <Flag />
         </Tile>
         <Tile text="Dedicated Community">
           <People />
