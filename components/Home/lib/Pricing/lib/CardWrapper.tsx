@@ -11,7 +11,12 @@ export const CardWrapper: FC<ICardWrapper> = ({
   shadow,
 }) => (
   <article
-    className={`border ${borderColor} ${shadow} flex flex-col justify-between pt-5 pb-6 rounded-base px-8 leading-none h-84 dark:border-none dark:bg-dk.25 dark:text-white max-w-100 m-auto`}
+    className={`
+    border ${borderColor} ${shadow} rounded-base 
+    flex flex-col justify-between
+    pt-5 pb-6 px-8 max-w-100 m-auto lg:h-130
+    leading-none h-84 
+    dark:border-none dark:bg-dk.25 dark:text-white `}
   >
     {children}
   </article>

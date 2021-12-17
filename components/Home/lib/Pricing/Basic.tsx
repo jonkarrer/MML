@@ -7,16 +7,23 @@ export const Basic = () => {
         title="Basic"
         desc="All the basics, including real time equities + crypto data and delayed
       options data"
-      />
+      >
+        <h3 className="font-black text-lg">
+          $19<b className=" text-sm text-232333 opacity-50">/mo</b>
+        </h3>
+      </Headline>
 
-      <h3 className="font-black text-lg">
-        $19<b className=" text-sm text-232333 opacity-50">/mo</b>
-      </h3>
-
-      <div className="grid gap-2.5">
-        <i className="text-15 text-232333 dark:text-white">
+      <div className="grid gap-2 lg:h-70 lg:flex lg:flex-col">
+        <h5 className="hidden lg:block text-15 font-bold lg:mb-1">
+          WHAT{"'"}S INCLUDED
+        </h5>
+        <i className="text-15 text-232333 dark:text-white lg:not-italic lg:font-bold">
           All free features, plus:
         </i>
+
+        <div className="hidden lg:grid gap-2">
+          <Feature name="Real time equities" />
+        </div>
         <Feature name="Real time crypto" />
         <Feature name="Equity forecasting models" />
         <Feature name="Exclusive Discord channels" />

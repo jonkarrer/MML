@@ -6,13 +6,21 @@ export const Free = () => {
       <Headline
         title="Free"
         desc="Try it out for free with slightly delayed data and alerts"
-      />
+      >
+        {" "}
+        <h3 className="font-black text-lg">
+          $0<b className=" text-sm text-232333 opacity-50">/mo</b>
+        </h3>
+      </Headline>
 
-      <h3 className="font-black text-lg">
-        $0<b className=" text-sm text-232333 opacity-50">/mo</b>
-      </h3>
+      <div className="grid gap-2 lg:h-70 lg:flex lg:flex-col">
+        <div className="hidden lg:grid gap-2">
+          <h5 className="text-15 font-bold lg:mb-1">WHAT{"'"}S INCLUDED</h5>
+          <Feature name="Delayed options" />
+          <Feature name="Delayed Alerts" />
+          <Feature name="Delayed options data" />
+        </div>
 
-      <div className="grid gap-2">
         <Feature name="Discord community" />
         <Feature name="Open source models" />
         <Feature name="Sentiment tracking" />
