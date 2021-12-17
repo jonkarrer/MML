@@ -144,6 +144,7 @@ module.exports = {
         "80vh": "80vh",
       },
       maxHeight: {
+        100: "326px",
         700: "700px",
         800: "800px",
         900: "900px",
@@ -152,6 +153,7 @@ module.exports = {
         1200: "1200px",
       },
       maxWidth: {
+        100: "326px",
         700: "700px",
         800: "800px",
         900: "900px",

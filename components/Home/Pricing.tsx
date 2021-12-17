@@ -1,16 +1,21 @@
 import { FC } from "react";
-import { MobilePrice } from "./lib/Pricing/Mobile";
+import { Free, Basic, Premium, Annual } from "./lib/Pricing";
 
 const Plans: FC = () => {
   return (
-    <section>
-      <div id="pricing" className="wrapper grid gap-16 lg:gap-24">
+    <div className="xl:px-4">
+      <div id="pricing" className="grid gap-16 lg:gap-24">
         <h2 className="text-87 text-center md:w-120 md:m-auto lg:w-auto">
           Try free or sign up for premium features
         </h2>
-        <MobilePrice />
+        <div className="grid gap-7 md:grid-cols-2 md:max-w-700 m-auto">
+          <Free />
+          <Basic />
+          <Premium />
+          <Annual />
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 
