@@ -9,7 +9,7 @@ export const Basic = () => {
       options data"
       >
         <h3 className="font-black text-lg">
-          $19<b className=" text-sm text-232333 opacity-50">/mo</b>
+          $19<b className=" text-sm dark:text-999999">/mo</b>
         </h3>
       </Headline>
 

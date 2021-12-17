@@ -8,7 +8,7 @@ export const Annual = () => {
         desc="Pay once a year, lock your price and save on your subscription cost"
       >
         <h3 className="font-black text-lg">
-          $399<b className=" text-sm text-232333 opacity-50">/yr</b>
+          $399<b className=" text-sm dark:text-999999">/yr</b>
         </h3>
       </Headline>
 

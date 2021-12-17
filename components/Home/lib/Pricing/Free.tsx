@@ -9,7 +9,7 @@ export const Free = () => {
       >
         {" "}
         <h3 className="font-black text-lg">
-          $0<b className=" text-sm text-232333 opacity-50">/mo</b>
+          $0<b className="text-sm dark:text-999999">/mo</b>
         </h3>
       </Headline>
 

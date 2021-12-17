@@ -8,7 +8,7 @@ export const Premium = () => {
         desc="Everything you need, real time, for one low monthly price"
       >
         <h3 className="font-black text-lg">
-          $39<b className=" text-sm text-232333 opacity-50">/mo</b>
+          $39<b className=" text-sm dark:text-999999">/mo</b>
         </h3>
       </Headline>
 
