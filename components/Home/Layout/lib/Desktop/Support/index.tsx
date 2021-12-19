@@ -1,17 +1,13 @@
 import { FC } from "react";
 import { Start, About, Learn, Blog, Contact, Triangle } from "./Links";
-import { useToggleContext } from "../../../Desktop";
+import { useToggleContext } from "../../../Layout";
 
 export const Support: FC = () => {
   const toggle = useToggleContext();
   return (
     <div className="text-white text-xm lg:text-14 font-medium cursor-pointer relative">
       <p
-        onClick={() =>
-          toggle?.userSelection === "Support"
-            ? toggle.userDispatch("none")
-            : toggle?.userDispatch("Support")
-        }
+        onMouseEnter={() => toggle?.userDispatch("Support")}
         className={`${
           toggle?.userSelection === "Support" ? "opacity-60" : ""
         } hover:opacity-60`}

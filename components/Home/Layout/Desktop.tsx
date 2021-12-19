@@ -1,28 +1,10 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import {
-  FC,
-  createContext,
-  Dispatch,
-  SetStateAction,
-  useState,
-  useContext,
-} from "react";
+import { FC } from "react";
 import NavLink from "./lib/Desktop/NavLink";
 import { Support } from "./lib/Desktop/Support";
 import { Developers } from "./lib/Desktop/Developers";
 
-interface IContext {
-  userSelection: string;
-  userDispatch: Dispatch<SetStateAction<string>>;
-}
-
-export const ToggleContext = createContext<IContext | undefined>(undefined);
-export const useToggleContext = () => {
-  return useContext(ToggleContext);
-};
 const Desktop: FC = () => {
-  const [userSelection, setUserSelection] = useState("none");
-
   return (
     <header className="hidden lg:block w-full absolute top-0 left-0 py-2">
       <div className="wrapper flex items-center justify-between m-auto">
@@ -35,15 +17,8 @@ const Desktop: FC = () => {
         <nav className="grid grid-flow-col place-items-center items-center gap-14 text-white">
           <NavLink text="Features" address="/#features" />
 
-          <ToggleContext.Provider
-            value={{
-              userSelection: userSelection,
-              userDispatch: setUserSelection,
-            }}
-          >
-            <Support />
-            <Developers />
-          </ToggleContext.Provider>
+          <Support />
+          <Developers />
 
           <NavLink text="Pricing" address="/#pricing" />
           <NavLink text="Sign Up" address="/auth/signup" />

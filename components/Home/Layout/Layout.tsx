@@ -2,21 +2,46 @@ import Head from "next/head";
 import MobileHeader from "./Mobile";
 import DesktopHeader from "./Desktop";
 import Footer from "./Footer";
-import type { NextPage } from "next";
+import {
+  FC,
+  createContext,
+  Dispatch,
+  SetStateAction,
+  useState,
+  useContext,
+} from "react";
 
-const Layout: NextPage = ({ children }) => {
+interface IContext {
+  userSelection: string;
+  userDispatch: Dispatch<SetStateAction<string>>;
+}
+
+export const ToggleContext = createContext<IContext | undefined>(undefined);
+export const useToggleContext = () => {
+  return useContext(ToggleContext);
+};
+
+const Layout: FC = ({ children }) => {
+  const [userSelection, setUserSelection] = useState("none");
   return (
-    <div>
+    <div onClick={() => setUserSelection("none")}>
       <Head>
         <title>Market Maker Lite</title>
         <meta name="description" content="Stocks, tickers, algorithms." />
       </Head>
 
       <MobileHeader />
-      <DesktopHeader />
 
-      {children}
+      <ToggleContext.Provider
+        value={{
+          userSelection: userSelection,
+          userDispatch: setUserSelection,
+        }}
+      >
+        <DesktopHeader />
 
+        {children}
+      </ToggleContext.Provider>
       <Footer />
     </div>
   );
