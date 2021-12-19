@@ -94,10 +94,10 @@ const Mobile: FC = () => {
           toggle ? "flex" : "hidden"
         } justify-between space-x-2 items-center text-white w-full max-w-100 mt-6 lg-hidden `}
       >
-        <button className="bg-lt.15 w-44">
+        <button className="bg-lt.15 text-white w-44">
           <Link href="/auth/signup">Sign Up</Link>
         </button>
-        <button className="bg-lt.15 w-44">
+        <button className="bg-lt.15 w-44 text-white">
           <Link href="/dashboard">Dashboard</Link>
         </button>
       </div>
