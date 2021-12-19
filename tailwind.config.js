@@ -10,7 +10,9 @@ module.exports = {
       14: "14px",
       15: "15px",
       xs: "16px",
+      17: "17px",
       sm: "18px",
+      19: "19px",
       base: "20px",
       xm: "24px",
       md: "28px",
@@ -64,6 +66,8 @@ module.exports = {
       "5653FF": "#5653FF",
       999999: "#999999",
       150727: "#150727",
+      "00D6C9": "#00D6C9",
+      "5865F2": "#5865F2",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -72,6 +76,7 @@ module.exports = {
       card: "0px 5px 15px 1px rgba(0, 0, 0, 0.15)",
       "0,5,15,5,.25": "0px 5px 15px 5px rgba(0,0,0, 0.25)",
       price_card: "0px 0px 0px 3px rgba(0, 110, 255, .25)",
+      "0,3,6,0,.1": "0px 3px 6px 0px rgba(0,0,0,0.1)",
     },
 
     extend: {
@@ -81,6 +86,7 @@ module.exports = {
       },
       width: {
         6: "21px",
+        17: "68px",
         25: "100px",
         26: "105px",
         34: "135px",
@@ -116,6 +122,7 @@ module.exports = {
       },
       height: {
         6: "21px",
+        17: "68px",
         25: "100px",
         26: "105px",
         34: "135px",
@@ -169,6 +176,7 @@ module.exports = {
       },
       gap: {
         2.5: "10px",
+        11.5: "46px",
       },
       opacity: {
         87: ".87",

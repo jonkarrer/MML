@@ -92,7 +92,7 @@ const Mobile: FC = () => {
       <div
         className={`${
           toggle ? "flex" : "hidden"
-        } justify-between space-x-2 items-center text-white w-full mt-6 lg-hidden `}
+        } justify-between space-x-2 items-center text-white w-full max-w-100 mt-6 lg-hidden `}
       >
         <button className="bg-lt.15 w-44">
           <Link href="/auth/signup">Sign Up</Link>

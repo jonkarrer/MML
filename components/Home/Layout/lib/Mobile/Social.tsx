@@ -3,7 +3,7 @@ import { FC } from "react";
 const Social: FC = () => {
   const wrapper = `grid place-content-center rounded-base hover:opacity-80`;
   return (
-    <div className="grid grid-flow-col gap-9 w-max m-auto">
+    <div className="absolute bottom-10 left-0 right-0 grid grid-flow-col gap-9 w-max m-auto">
       <a href="https://discord.gg/jjDcZcqXWy" className={wrapper}>
         <Discord />
       </a>

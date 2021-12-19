@@ -9,7 +9,7 @@ const Splash: FC = () => (
         interface, made for retail investors.
       </p>
       <div className="lg:grid lg:grid-flow-col place-content-center mt-12 md:gap-16 md:items-center">
-        <button className="bg-white w-full md:w-44 text-150727 hover:opacity-80">
+        <button className="bg-white w-full max-w-md md:w-44 text-150727 hover:opacity-80">
           Get Started
         </button>
         <a
