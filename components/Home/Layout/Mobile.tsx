@@ -28,6 +28,12 @@ const Mobile: FC = () => {
 
   function handleClick() {
     setToggle(!toggle);
+
+    if (toggle === false) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
   }
 
   return (
