@@ -24,7 +24,7 @@ export const useToggleContext = () => {
 const Layout: FC = ({ children }) => {
   const [userSelection, setUserSelection] = useState("none");
   return (
-    <div onClick={() => setUserSelection("none")}>
+    <div>
       <Head>
         <title>Market Maker Lite</title>
         <meta name="description" content="Stocks, tickers, algorithms." />

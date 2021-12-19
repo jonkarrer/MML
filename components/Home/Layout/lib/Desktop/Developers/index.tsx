@@ -15,6 +15,7 @@ export const Developers: FC = () => {
         Developers
       </p>
       <div
+        onMouseLeave={() => toggle?.userDispatch("none")}
         className={`${
           toggle?.userSelection === "Developers" ? "absolute" : "hidden"
         } bg-white dark:bg-121212 top-10 -left-5 w-59 h-26 p-6 flex flex-col justify-between rounded-base shadow-0,5,15,5,.25`}
