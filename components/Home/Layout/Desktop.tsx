@@ -28,7 +28,7 @@ const Desktop: FC = () => {
       <div className="wrapper flex items-center justify-between m-auto">
         <a
           href="/"
-          className="text-white text-xm font-black w-24 hover:opacity-60"
+          className="text-white text-center text-xm font-black w-24 hover:opacity-60"
         >
           mml
         </a>
@@ -50,7 +50,7 @@ const Desktop: FC = () => {
         </nav>
         <a href="/dashboard">
           <span className="w-24 h-9 grid place-content-center bg-white rounded-button bg-opacity-20 hover:bg-opacity-40 cursor-pointer">
-            <h6 className="text-white text- text-15 font-medium">Dashboard</h6>
+            <h6 className="text-white text-15 font-medium">Dashboard</h6>
           </span>
         </a>
       </div>
