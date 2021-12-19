@@ -13,7 +13,12 @@ const Footer: FC = () => (
       <p className="text-black text-15 dark:text-white opacity-40 text-center m-auto">
         Market Maker Lite &copy; 2021. All Rights Reserved.
       </p>
-
+      <div className="flex items-center lg:hidden text-black text-15 dark:text-white opacity-40 text-center m-auto space-x-3">
+        <a className="border-r pr-3" href="/terms">
+          Terms and Conditions
+        </a>
+        <a href="/privacy">Privacy Policy</a>
+      </div>
       <nav className="hidden lg:grid lg:grid-flow-col gap-5">
         <NavLink text="Learn" address="https://learn.marketmakerlite.com/" />
 
