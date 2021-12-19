@@ -1,12 +1,30 @@
 import Link from "next/dist/client/link";
-import { useState, FC } from "react";
 import SocialMediaIcons from "./lib/Mobile/Social";
 import NavLink from "./lib/Mobile/NavLink";
 import { Support } from "./lib/Mobile/Support";
 import { Developers } from "./lib/Mobile/Developers";
+import {
+  FC,
+  createContext,
+  Dispatch,
+  SetStateAction,
+  useState,
+  useContext,
+} from "react";
+
+interface IContext {
+  userSelection: string;
+  userDispatch: Dispatch<SetStateAction<string>>;
+}
+
+export const ToggleContext = createContext<IContext | undefined>(undefined);
+export const useToggleContext = () => {
+  return useContext(ToggleContext);
+};
 
 const Mobile: FC = () => {
   const [toggle, setToggle] = useState(false);
+  const [userSelection, setUserSelection] = useState("none");
 
   function handleClick() {
     setToggle(!toggle);
@@ -47,17 +65,36 @@ const Mobile: FC = () => {
         className={`${toggle ? "grid" : "hidden"} mt-14 gap-6 lg:hidden`}
       >
         <div onClick={() => handleClick()}>
-          <NavLink text="FEATURES" address="/#features" />
+          <NavLink text="Features" address="/#features" />
         </div>
-        <Support />
-        <Developers />
+
+        <ToggleContext.Provider
+          value={{
+            userSelection: userSelection,
+            userDispatch: setUserSelection,
+          }}
+        >
+          <Support />
+          <Developers />
+        </ToggleContext.Provider>
+
         <div onClick={() => handleClick()}>
-          <NavLink text="PRICING" address="/#pricing" />
+          <NavLink text="Pricing" address="/#pricing" />
         </div>
-        <NavLink text="SIGN UP" address="/auth/signup" />
-        <NavLink text="DASHBOARD" address="/dashboard" />
       </nav>
 
+      <div
+        className={`${
+          toggle ? "flex" : "hidden"
+        } justify-between space-x-2 items-center text-white w-full mt-6 lg-hidden `}
+      >
+        <button className="bg-lt.15 w-44">
+          <Link href="/auth/signup">Sign Up</Link>
+        </button>
+        <button className="bg-lt.15 w-44">
+          <Link href="/dashboard">Dashboard</Link>
+        </button>
+      </div>
       <div className={`${toggle ? "grid" : "hidden"} flex-1 lg:hidden `}>
         <SocialMediaIcons />
       </div>

@@ -10,7 +10,7 @@ const Footer: FC = () => (
     <SocialMediaIcons />
 
     <div className="grid xl:grid-flow-col gap-8">
-      <p className="text-black dark:text-white opacity-40 text-center m-auto">
+      <p className="text-black text-15 dark:text-white opacity-40 text-center m-auto">
         Market Maker Lite &copy; 2021. All Rights Reserved.
       </p>
 

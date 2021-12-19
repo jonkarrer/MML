@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Cards from "./lib/Bar/Cards";
-import Background from "./lib/Bar/Background";
+import Cards from "../Bar/Cards";
+import Background from "../Bar/Background";
 
 const Bar: FC = () => (
   <section className="overflow-hidden bg-F6F8FE dark:bg-121212 lg:bg-white lg:dark:bg-121212">
@@ -8,7 +8,7 @@ const Bar: FC = () => (
       <div className="w-full flex items-center justify-center lg:justify-start">
         <Background />
 
-        <h2 className="text-87 text-center md:w-120 lg:text-left lg:w-110">
+        <h2 className="heading-text text-center md:w-120 lg:text-left lg:w-110">
           Find the approach that fits your style
         </h2>
       </div>

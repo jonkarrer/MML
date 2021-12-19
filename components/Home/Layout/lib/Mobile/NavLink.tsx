@@ -3,7 +3,7 @@ import { ILink } from "@/utils/interfaces";
 
 const NavLink: FC<ILink> = ({ text, address }) => (
   <a href={address}>
-    <span className="text-white text-xs font-bold hover:font-black cursor-pointer">
+    <span className="text-white text-sm font-bold hover:font-black cursor-pointer">
       {text}
     </span>
   </a>

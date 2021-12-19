@@ -14,6 +14,9 @@ const Social: FC = () => {
       <a href="https://www.reddit.com/r/Marketmakerlite/" className={wrapper}>
         <Reddit />
       </a>
+      <a href="https://github.com/MarketMakerLite" className={wrapper}>
+        <Github />
+      </a>
       <a href="/contact" className={wrapper}>
         <Email />
       </a>

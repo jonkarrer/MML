@@ -8,8 +8,8 @@ const Splash: FC = () => (
         Market alerts, statistics and analytics, delivered through an innovative
         interface, made for retail investors.
       </p>
-      <div className="grid grid-flow-col place-content-center mt-12 md:gap-16 md:items-center">
-        <button className="bg-white w-80 md:w-44 text-2AABC1 dark:text-222353 hover:opacity-80">
+      <div className="lg:grid lg:grid-flow-col place-content-center mt-12 md:gap-16 md:items-center">
+        <button className="bg-white w-full md:w-44 text-150727 hover:opacity-80">
           Get Started
         </button>
         <a

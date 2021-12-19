@@ -12,11 +12,11 @@ export const Annual = () => {
         </h3>
       </Headline>
 
-      <div className="grid gap-2 lg:h-70 lg:flex lg:flex-col">
-        <h5 className="hidden lg:block text-15 font-bold lg:mb-1">
+      <div className="grid gap-1 lg:h-70 lg:flex lg:flex-col">
+        <h5 className="hidden lg:block text-15 font-bold lg:mb-2">
           WHAT{"'"}S INCLUDED
         </h5>
-        <i className="text-15 text-232333 dark:text-white lg:not-italic lg:font-bold">
+        <i className="text-15 text-232333 dark:text-white mb-1 lg:not-italic lg:font-bold">
           All premium features, plus:
         </i>
 
@@ -25,7 +25,7 @@ export const Annual = () => {
         <Feature name="Support our development" />
       </div>
 
-      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black hover:opacity-80">
+      <button className="bg-150727 text-white h-11 w-full dark:bg-white dark:text-150727 hover:opacity-80">
         Subscribe
       </button>
     </CardWrapper>

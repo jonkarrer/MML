@@ -103,4 +103,7 @@ section {
   .text-87 {
     @apply opacity-87 font-medium text-232333 dark:text-white;
   }
+  .heading-text {
+    @apply font-bold text-150727 dark:text-white;
+  }
 }

@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const fillColor = "fill-current text-3D5368 dark:text-white";
+const fillColor = "fill-current text-white";
 const wrapper = "grid grid-flow-col place-content-start items-center gap-3";
-const text = "text-xs font-medium text-3D5368 dark:text-white";
+const text = "text-xs font-medium text-white";
 
 export const Start = () => (
   <Link passHref href="/">

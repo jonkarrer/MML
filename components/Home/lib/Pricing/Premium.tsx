@@ -7,20 +7,20 @@ export const Premium = () => {
         title="Premium"
         desc="Everything you need, real time, for one low monthly price"
       >
-        <h3 className="font-black text-lg">
-          $39<b className=" text-sm dark:text-999999">/mo</b>
+        <h3 className="font-bold text-lg">
+          $39<b className="text-sm dark:text-999999">/mo</b>
         </h3>
       </Headline>
 
-      <div className="grid gap-2 lg:h-70 lg:flex lg:flex-col">
-        <h5 className="hidden lg:block text-15 font-bold lg:mb-1">
+      <div className="grid gap-1 lg:h-70 lg:flex lg:flex-col">
+        <h5 className="hidden lg:block text-15 font-bold lg:mb-2">
           WHAT{"'"}S INCLUDED
         </h5>
-        <i className="text-15 text-232333 dark:text-white lg:not-italic lg:font-bold">
+        <i className="text-15 text-232333 dark:text-white mb-1 lg:not-italic lg:font-bold">
           All basic features, plus:
         </i>
 
-        <div className="hidden lg:grid gap-2">
+        <div className="hidden lg:grid gap-1">
           <Feature name="Proprietary models" />
           <Feature name="News feed" />
           <Feature name="Earn rewards" />
@@ -31,7 +31,7 @@ export const Premium = () => {
         <Feature name="All Discord channels" />
       </div>
 
-      <button className="bg-006EFF text-white h-11 w-full dark:text-black hover:opacity-80">
+      <button className="bg-006EFF text-white h-11 w-full dark:text-150727 hover:opacity-80">
         Subscribe
       </button>
     </CardWrapper>

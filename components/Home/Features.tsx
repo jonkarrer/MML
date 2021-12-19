@@ -5,7 +5,7 @@ import { Dashboard, Exclaimation, Flag, Graph, People, Tag } from "./lib/icons";
 const Features: FC = () => (
   <section id="features">
     <article className="wrapper grid gap-12 m-auto md:gap-24">
-      <h2 className="text-87 text-center">Simplify your research</h2>
+      <h2 className="heading-text text-center">Simplify your research</h2>
 
       <div className="grid place-items-center grid-cols-2 gap-12 md:grid-cols-3 md:w-140 md:m-auto lg:w-170">
         <Tile text="Actionable Notifications">

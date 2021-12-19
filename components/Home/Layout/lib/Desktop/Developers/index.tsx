@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import { Triangle, Documentation, Github } from "./Links";
 import { useToggleContext } from "../../../Desktop";
 

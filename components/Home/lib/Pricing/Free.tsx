@@ -13,9 +13,9 @@ export const Free = () => {
         </h3>
       </Headline>
 
-      <div className="grid gap-2 lg:h-70 lg:flex lg:flex-col">
-        <div className="hidden lg:grid gap-2">
-          <h5 className="text-15 font-bold lg:mb-1">WHAT{"'"}S INCLUDED</h5>
+      <div className="grid gap-1 lg:h-70 lg:flex lg:flex-col">
+        <div className="hidden lg:grid gap-1">
+          <h5 className="text-15 font-bold lg:mb-2">WHAT{"'"}S INCLUDED</h5>
           <Feature name="Delayed options" />
           <Feature name="Delayed Alerts" />
           <Feature name="Delayed options data" />
@@ -27,7 +27,7 @@ export const Free = () => {
         <Feature name="Financial literacy tools" />
       </div>
 
-      <button className="bg-black text-white h-11 w-full dark:bg-white dark:text-black hover:opacity-80">
+      <button className="bg-150727 text-white h-11 w-full dark:bg-white dark:text-150727 hover:opacity-80">
         Sign Up
       </button>
     </CardWrapper>

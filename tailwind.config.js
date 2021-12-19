@@ -21,8 +21,9 @@ module.exports = {
     },
     colors: {
       "dk.50": "rgba(35, 35, 51, .5)",
-      "lt.50": "rgba(300,300,300, .5)",
+      "lt.50": "rgba(255,255,255, .5)",
       "dk.25": "rgba(0,0,0, .25)",
+      "lt.15": "rgba(255,255,255, .15)",
       clear: "rgba(0,0,0,0)",
       222353: "#222353",
       "2AABC1": "rgba(52,183,219, 1)",
@@ -62,6 +63,7 @@ module.exports = {
       "0098FF": "#0098FF",
       "5653FF": "#5653FF",
       999999: "#999999",
+      150727: "#150727",
     },
     boxShadow: {
       lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -74,7 +76,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        light_grad: "linear-gradient(110deg, #00D6C9, #0059CE)",
+        light_grad: "linear-gradient(110deg,#00fff0,#0069ff)",
         dark_grad: "linear-gradient(110deg, #6C0293, #12123E)",
       },
       width: {
