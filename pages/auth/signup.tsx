@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { auth } from "@/utils/firebase/firebaseClient";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { NextPage } from "next";
+import Layout from "@/components/Support/Layout/Layout";
 
 const SignUp: NextPage = () => {
   const email = useRef("");
@@ -17,33 +18,36 @@ const SignUp: NextPage = () => {
       .catch((err) => console.log(err));
   }
   return (
-    <section className=" h-screen bg-121212 text-white">
-      <form
-        className="grid gap-6 place-content-center h-full"
-        onSubmit={(e) => handleSubmit(e)}
-      >
-        <label htmlFor="email">
-          <p>Email:</p>
-          <input
-            onChange={(e) => (email.current = e.currentTarget.value)}
-            className="text-black"
-            type="email"
-            name="email"
-            required
-          />
-        </label>
-        <label htmlFor="password">
-          <p>Password:</p>
-          <input
-            className="text-black"
-            onChange={(e) => (password.current = e.currentTarget.value)}
-            type="password"
-            name="password"
-          />
-        </label>
-        <button type="submit">Sign Up</button>
-      </form>
-    </section>
+    <Layout>
+      <div className="h-screen pt-16 bg-white text-232333 dark:bg-121212 dark:text-white">
+        <h2 className="text-center ">Create your account</h2>
+        <form
+          className="grid gap-6 place-content-center h-full"
+          onSubmit={(e) => handleSubmit(e)}
+        >
+          <label htmlFor="email">
+            <p>Email:</p>
+            <input
+              onChange={(e) => (email.current = e.currentTarget.value)}
+              className="text-black"
+              type="email"
+              name="email"
+              required
+            />
+          </label>
+          <label htmlFor="password">
+            <p>Password:</p>
+            <input
+              className="text-black"
+              onChange={(e) => (password.current = e.currentTarget.value)}
+              type="password"
+              name="password"
+            />
+          </label>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </Layout>
   );
 };
 

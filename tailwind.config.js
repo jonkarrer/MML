@@ -77,6 +77,7 @@ module.exports = {
       "0,5,15,5,.25": "0px 5px 15px 5px rgba(0,0,0, 0.25)",
       price_card: "0px 0px 0px 3px rgba(0, 110, 255, .25)",
       "0,3,6,0,.1": "0px 3px 6px 0px rgba(0,0,0,0.1)",
+      header: "0px 3px 6px 0px rgba(0,0,0,0.05)",
     },
 
     extend: {
@@ -190,6 +191,7 @@ module.exports = {
       },
       dropShadow: {
         logo: "4px 5px 5px rgba(0, 0, 0, .3)",
+        header: "0px 3px 6px 0px rgba(0,0,0,0.05)",
       },
     },
   },
